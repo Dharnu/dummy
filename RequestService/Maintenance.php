@@ -140,125 +140,86 @@
                 </div>
             </footer>
         </div>
-        <div id="triangle_up" class="triangle-up flexAlignCenterJustifyCenter" style="display: none;"></div>
-        <div class="alert-popup popupShadow" id="alert_popup" style="display: none;" >
-            <div class="alert-icon-main flexAlignCenterJustifyCenter">
-                <div class="alert-icon flexAlignCenterJustifyCenter">
-                    <div class="exc-symbol">!</div>
+
+        <div class="overlay flexAlignCenterJustifyCenter" id="overlay">
+            <div class="alert-popup" id="alert-popup">
+                <div class="alert-icon-main flexAlignCenterJustifyCenter">
+                    <div class="alert-icon flexAlignCenterJustifyCenter">
+                        <div class="exc-symbol">!</div>
+                    </div>
+                </div>
+                <div class="alert-message flexAlignCenterJustifyCenter" id="popupMsg">Previous date not allowed.</div>
+                <div class="alert-action flexAlignCenterJustifyCenter">
+                    <div class="flexAlignCenterJustifyCenter" onclick="closePopup();">OK</div>
                 </div>
             </div>
-            <div class="alert-message flexAlignCenterJustifyCenter" id="popupMsg">HouseKeeping Request Sent. Staff will Arrive Within 15min</div>
-            <div class="alert-action flexAlignCenterJustifyCenter">
-                <div class="flexAlignCenterJustifyCenter" onclick="closePopup();">OK</div>
-            </div>
         </div>
-        <div id="triangle_down" class="triangle-down flexAlignCenterJustifyCenter" style="display: none;"></div>
-
-
-
 
     </body>
     <script>
         function home() {
             window.location.href = 'http://10.10.1.166/CCRC_NEW_DESIGN';
         }
+        
         function popup() {
-
-            document.getElementById('issue_content');
-            var scroll = document.getElementById('content_scroll');
-
-
-
-            var target = event.target;
-
-            var targetOffset = target.offsetTop;
-
-            var scrollPosition = scroll.scrollTop;
-            openPopup(targetOffset, scrollPosition);
-
+            document.getElementById('overlay').style.display = "-webkit-flex";
         }
-
-        function openPopup(offset, soffset) {
-
-            var height = offset + 70;
-
-
-//            if (soffset < 0)
-//               
+//        function popup() {
+//
+//            document.getElementById('issue_content');
+//            var scroll = document.getElementById('content_scroll');
+//
+//
+//
+//            var target = event.target;
+//
+//            var targetOffset = target.offsetTop;
+//
+//            var scrollPosition = scroll.scrollTop;
+//            openPopup(targetOffset, scrollPosition);
+//
+//        }
+//
+//        function openPopup(offset, soffset) {
+//
+//            var height = offset + 70;
+//
+//            var popup = document.getElementById('alert_popup');
+//            if (popup.style.display === 'none')
 //            {
-//                var popup = document.getElementById('alert_popup');
-//                var newheight = soffset + height;
-//                if (newheight > 600 || height > 600)
-//                {
-//                    
-//                    
-//                    var scrollheight = offset - 285;
-//                    
-//                    var offsetTri = offset - 30;
-//                  
-//                    triangle_up.style.display = "none";
-//                 
-//                    triangle_down.style.display = "block";
-//                  
-//                    popup.style.top = scrollheight + 'px';
-//                   
 //
-//                    triangle_down.style.top = offsetTri + 'px';
-//                   
-//                }
-//                else {
-//                    var offsetTri = offset + 50;
-//                   
-//                    triangle_down.style.display = "none";
-//                   
-//                    triangle_up.style.display = "block";
-//                   
-//                    popup.style.top = height + 'px';
-//                 
-//                    triangle_up.style.top = offsetTri + 'px';
-//                    
-//                }
-//
+//                popup.style.display = 'block';
 //            }
-//           
-            var popup = document.getElementById('alert_popup');
-            if (popup.style.display === 'none')
-            {
-
-                popup.style.display = 'block';
-            }
-
-            if (height > 600) {
-
-                height = offset - 285;
-
-                var offsetTri = offset - 36;
-                triangle_up.style.display = "none";
-
-                triangle_down.style.display = "block";
-
-                popup.style.top = height + 'px';
-
-
-                triangle_down.style.top = offsetTri + 'px';
-            }
-            else {
-                var offsetTri = offset + 36.5;
-                triangle_down.style.display = "none";
-                triangle_up.style.display = "block";
-                popup.style.top = height + 'px';
-
-                triangle_up.style.top = offsetTri + 'px';
-            }
-
-        }
+//
+//            if (height > 600) {
+//
+//                height = offset - 285;
+//
+//                var offsetTri = offset - 36;
+//                triangle_up.style.display = "none";
+//
+//                triangle_down.style.display = "block";
+//
+//                popup.style.top = height + 'px';
+//
+//
+//                triangle_down.style.top = offsetTri + 'px';
+//            }
+//            else {
+//                var offsetTri = offset + 36.5;
+//                triangle_down.style.display = "none";
+//                triangle_up.style.display = "block";
+//                popup.style.top = height + 'px';
+//
+//                triangle_up.style.top = offsetTri + 'px';
+//            }
+//
+//        }
 
 
 
         function closePopup() {
-            document.getElementById('alert_popup').style.display = "none";
-            document.getElementById('triangle_up').style.display = "none";
-            document.getElementById('triangle_down').style.display = "none";
+            document.getElementById('overlay').style.display = "none";
         }
     </script>
 </html>
