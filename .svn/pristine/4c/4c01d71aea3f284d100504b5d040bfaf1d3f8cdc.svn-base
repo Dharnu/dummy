@@ -1,0 +1,498 @@
+@media only screen and (max-width: 770px) {
+    .cal-header {
+        height: 7%;
+        font-size: 35px;
+        font-family: 'Bryant';
+    }
+    .cal-footer {
+        height: 16%;
+    }
+    .cal-spring {
+        height: 7%;
+        background-image: url("../images/spring.png");
+        background-repeat: repeat-x;
+        background-size: 7%;
+        background-position: 12px 0px;
+    }
+    .cal-content {
+        height: 70%;
+        background-color: #ffffff;
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        -moz-align-items: flex-start;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+    }
+    .cal-innercontent {
+        height: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .cal-types {
+        height: 8%;
+        font-size: 25px;
+        margin-bottom: 1.5%;
+        padding: 0 16px;
+    }
+    .cal-community {
+        width: 50%;
+        height: 100%;
+        background-color: #fcb040;
+        font-family: 'Myriad-Bold';
+        font-size: 22px;
+    }
+    .cal-community-click {
+        width: 50%;
+        height: 100%;
+        background-color: #59c4bc;
+        font-family: 'Myriad-Bold';
+        font-size: 22px;
+    }
+    .cal-personal {
+        width: 50%;
+        height: 100%;
+        background-color: #59c4bc;
+        font-family: 'Myriad-Bold';
+        font-size: 22px;
+    }
+    .cal-personal-click {
+        width: 50%;
+        height: 100%;
+        background-color: #fcb040;
+        font-family: 'Myriad-Bold';
+        font-size: 22px;
+    }
+
+    .cal-month {
+        background-color: #59c4bc;
+        font-size: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .cal-month-main{
+        justify-content: space-around;
+        -webkit-justify-content: space-around; 
+        -moz-justify-content: space-around; 
+        height: 9%;
+        font-family: 'Myriad-Bold';
+    }
+    .arrow-left {
+        width: 0; 
+        height: 0; 
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent; 
+        border-right: 15px solid #59c4bc; 
+    }
+    .arrow-right {
+        width: 0; 
+        height: 0; 
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #59c4bc;
+    }
+    .cal-prevmonth{
+        width: 17%;
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start; 
+        -moz-justify-content: flex-start; 
+        padding-left: 2%;
+        cursor: pointer;
+        line-height: 65%;
+    }
+    .cal-curmonth{
+        width: 66%;
+        font-size: 35px;
+    }
+    .cal-nextmonth{
+        width: 17%;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end; 
+        -moz-justify-content: flex-end; 
+        padding-right: 2%;
+        cursor: pointer;
+        line-height: 76%;
+    }
+    .cal-nextmonth > p > span {
+        display: block;
+    }
+    .cal-prevmonth > p > span {
+        display: block;
+    }
+    .cal-prev{
+        font-size: 18px;
+    }
+    .cal-monthprev{
+        font-size: 23px;
+    }
+    .cal-next{
+        font-size: 27px;
+    }
+    .cal-monthnext{
+        font-size: 18px;
+    }
+    .cal-days{
+        justify-content: space-around;
+        -webkit-justify-content: space-around; 
+        -moz-justify-content: space-around; 
+        color: #59c4bc;
+        margin-top: 1%;
+        font-size: 23px;
+        height: 5%;
+        font-family: 'Myriad-Bold';
+        padding: 0 16px;
+    }
+    .cal-days > div {
+        width: 13%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: center; 
+        display: -moz-flex; /* Mozilla */
+        -moz-justify-content: center; 
+
+    }
+    .cal-dates{
+        height: 84%;
+        padding: 0 10px;
+        font-size: 45px;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        justify-content: space-between;
+        -webkit-justify-content: space-around; 
+        -moz-justify-content: space-around; 
+        font-family: 'Myriad-Bold';
+    }
+    .cal-dates > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: center; 
+        -webkit-align-items: center;
+        display: -moz-flex; /* Mozilla */
+        -moz-justify-content: center; 
+        -moz-align-items: center;
+    }
+    .withDate {
+        width: 13%;
+        height: 15%;
+        background-color: #fcb040;
+    }
+    .selectedDate{
+        width: 13%;
+        height: 15%;
+        background-color: #16bad6;
+    }
+    .emptyDate {
+        width: 13%;
+        height: 15%;
+        background-color: #ffffff;
+    }
+    .todayDate {          
+        width: 13%;
+        height: 15%;
+        background-color: gray;
+    }
+    .home-icon{
+        padding-top: 4px;
+    }
+    /*Calendar main page ends*/
+
+    /*Individual Calendar starts*/
+    .calender-body {
+        background-color: #ffffff;
+        margin: auto;
+        width: 97%;
+        height: 100%;
+    }
+    .cal-select-date{
+        width:100%;
+        height: 12%;
+        margin:auto;
+        background-color: #59c4bc;
+    }
+    .cal-date-day {
+        width: 12%;
+        height:100%;
+        background-color: #fcb040;
+        color: #ffffff;
+        font-family: 'Myriad-Bold';
+        text-align: -webkit-center;
+        line-height: 33px;
+    }
+    .cal-date-day-display {
+        margin-top: 15%;
+    }
+    .cal-date {
+        font-size: 45px;
+        font-family: 'Myriad-Bold';
+    }
+    .cal-day {
+        font-size: 25px;
+        font-family: 'Myriad-Regular';
+    }
+    .cal-select-month {
+        font-family: 'Myriad-Bold';
+        font-size: 35px;
+        padding-left: 3%;
+    }
+    .cal-event-list {
+        width:90%;
+        margin:auto;
+        overflow-y: scroll;
+        height:88%;
+    }
+    .cal-event-list-empty {
+        width:90%;
+        margin:auto;
+        height:88%;
+        color: #fcb040;
+        font-size: 25px;
+        font-family: 'Myriad-Regular';
+    }
+    .empty-message {
+        width: 100%;
+        text-align: center;
+        text-align: -webkit-center;
+    }
+    .event-list {
+        border-bottom: 1px solid #16bad6;
+        width: 100%;
+        height: 14%;
+        font-family: 'Myriad-Bold';
+    }
+    .event-time{
+        color: #50D1C7;
+        font-size: 25px;
+        padding-right: 3%;
+        width: 17%;
+    }
+    .event-name{
+        color: #19bad6;
+        font-size: 27px;
+        padding-left: 3%;
+    }
+    .divider {
+        color: #50D1C7;
+        font-size: 33px;
+        width: 3%;
+    }
+    /*Individual Calendar ends*/
+
+    /*Event Details starts*/
+    .select-event {
+        width: 100%;
+        height: 11%;
+        background-color: #fcb040;
+    }
+    .cal-selected-event {
+        background-color: #fcb040;
+        font-family: 'Myriad-Bold';
+        font-size: 34px;
+        padding-left:3%;
+    }
+    .event-description-main {
+        height: 10%;
+        width:100%;
+        color: #9a9a9a;
+        font-family: 'Myriad-Regular';
+        font-size: 31px;
+    }
+    .event-description {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .event-message-main {
+        height: 33%;
+        background-color: rgba(195, 193, 193, 0.42);
+    }
+    .event-loc-host{
+        font-family:  'Myriad-Regular';
+    }
+    .event-timing-main {
+        height: 18%;
+    }
+    .event-message {
+        width: 93%;
+        margin: 0 auto;
+        height: 88%;
+        padding-top: 2%;
+        font-size: 30px;
+        color:#9A9A9A;
+        font-family: 'Myriad-Bold';
+        overflow: scroll;
+    }
+    .event-timing {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .clock-icon {
+        width: 15%;
+    }
+    .display-event-time {
+        width: 60%;
+    }
+    .time-label {
+        font-family: 'Myriad-Regular';
+        color: #19BAD6;
+        font-size: 29px;
+    }
+    .time-divide {
+        font-family: 'Myriad-Regular';
+        color: #19BAD6;
+        font-size: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .from-to-time {
+        font-family: 'Myriad-Bold';
+        color: #19BAD6;
+        font-size: 30px;
+    }
+    .event-list-main {
+        width: 28%;
+    }
+    .event-action-main {
+        height: 16%;
+        font-family: 'Myriad-Bold';
+    }
+    .event-actions {
+        width: 93%;
+        margin: auto;
+    }
+    .event-action {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 60%;
+    }
+    .event-action-register {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width:41%;
+    }
+    .event-action-transport {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 47%;
+        text-align: center;
+    }
+    .event-edit-delete {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 30%;
+    }
+    .event-cancel {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 30%;
+    }
+    .event-action-message {
+        height: 58%;
+        font-size: 25px;
+        width: 71%;
+        color: #FCB040;
+        font-family: 'Myriad-Regular';
+    }
+    .goto-eventlist {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 28%;
+    }
+    .goto-eventlist-top {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width:100%;
+        font-family: 'Myriad-Bold';
+    }
+    .createEvent {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 29%;
+        font-size: 30px;
+        width: 27%;
+        font-family: 'Myriad-Bold';
+    }
+    /*Event Details Ends*/
+
+    /*Create Event Starts*/
+    .add-event {
+        background-color: #FCB040;
+        border-radius: 8px;
+        height: 58%;
+        font-size: 25px;
+        width: 27%;
+    }
+    .event-details-main {
+        color: #19bad6;
+        width: 100%;
+        height: 72%;
+        display: none;
+    }
+    .event-details {
+        width: 93%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .create-event-name {
+        width: 100%;
+        height: 25%;
+    }
+    .create-event-description {
+        width: 100%;
+        height: 25%;
+    }
+    .create-event-starttime {
+        width: 100%;
+        height: 25%;
+    }
+    .create-event-endtime {
+        width: 100%;
+        height: 25%;
+    }
+    .event-details > div > div:first-child {
+        width: 40%;
+        font-family: 'Myriad-Bold';
+        font-size: 25px;
+    }
+    .event-details > div > div:nth-child(2) {
+        width: 60%;
+    }
+    .event-details > div > div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-align-items: center;
+        display: -moz-flex; /* Mozilla */
+        -moz-align-items: center;
+    }
+    .event-details > div> div > textarea {
+        border-color: #16bad6;
+    }
+    .event-start-end {
+        width: 35%;
+        height: 30%;
+        background-color: #16bad6;
+        font-family: 'Myriad-Bold';
+        font-size: 25px;
+        color: #ffffff;
+    }
+    /*Create Event Ends*/
+}

@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CCRC - Calendar</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/common_style.css" />
+    </head>
+    <body>
+        <div class="cal-container">
+            <header class="centerAll">
+                MULTI CALENDAR
+            </header>
+            <section>
+                <div class="calender-body cal-shadow flexStartCenter grid-box-scroll">
+                    <div class="grid-box-main displayFlex ">
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                        <div class="cal_box centerAll flexDirection">
+                            <img src="images/clock_icon.png" width="50px" height="50px" />
+                            <span>Calendar 1</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="spaceBetween">
+                <div class="home-icon"><img src="images/home.png" width="150" height="150" alt="home" /></div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Bryant';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/BryantPro-Medium.otf");
+}
+@font-face {
+    font-family: 'Myriad-Bold';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Myriad-Pro-Bold.ttf");
+}
+@font-face {
+    font-family: 'Myriad-Regular';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Myriad-Pro-Regular.ttf");
+}
+html ,body {
+    background-color: #16bad6;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.displayFlex {
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    display: -moz-flex; /* Mozilla */
+
+}
+.centerAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+    -moz-align-items: center;
+}
+.flexEnd {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    -webkit-align-items: flex-end;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+    -moz-align-items: flex-end;
+}
+.spaceAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: space-around; 
+    -moz-align-items: center;
+}
+.flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: flex-start; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: flex-start; 
+    -moz-align-items: center;
+}
+.flexStartCenter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    -webkit-align-items: flex-start;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+    -moz-align-items: flex-start;
+}
+.centerItems {
+    display: flex;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-align-items: center;
+}
+.justifyContent {
+    display: flex;
+    justify-content: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+}
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-between; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: space-between; 
+    -moz-align-items: center;
+}
+.centerContent {
+    display: flex;
+    justify-content: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+}
+.flexDirection {
+    dispaly: flex;
+    flex-direction: column;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: column; 
+    display: -moz-flex; /* Mozilla */
+    -moz-flex-direction: column; 
+}
+
+@media only screen and (max-width: 770px) {
+
+    header {
+        height: 11%;
+        font-size: 35px;
+        font-family: 'Bryant';
+    }
+    section {
+        height:68%;
+    }
+    footer {
+        height: 21%;
+        display: flex;
+    }
+    .cal-container {
+        width: 94%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .cal-shadow{
+        -webkit-box-shadow: 7px 7px 1px 0px #13A2BA;
+        -moz-box-shadow: 7px 7px 1px 0px #13A2BA;
+        box-shadow: 7px 7px 1px 0px #13A2BA;
+    }
+    .cal-shadow1{
+        -webkit-box-shadow: 7px 40px 1px 0px #13A2BA;
+        -moz-box-shadow: 7px 40px 1px 0px #13A2BA;
+        box-shadow: 7px 40px 1px 0px #13A2BA;
+    }
+    .whole-shadow {
+        box-shadow: -1px 1px 5px 8px rgba(93, 218, 218, 0.27);
+        -webkit-box-shadow: -1px 1px 5px 8px rgba(93, 218, 218, 0.27);
+        -moz-box-shadow: -1px 1px 5px 8px rgba(93, 218, 218, 0.27);
+    }
+
+    /*time selector*/
+
+    .select-event-time-main {
+        width: 50%;
+        height: 55%;
+        background-color: #16bad6;
+    }
+    .select-event-time {
+        width: 100%;
+        height: 100%;
+    }
+    .time-actions {
+        width: 100%;
+        height: 15%;
+    }
+    .time-actions > div {
+        width: 30%;
+        height: 70%;
+        background-color: #fcb040;
+        color: #ffffff;
+        font-family: 'Myriad-Bold';
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .select-time {
+        height: 77%;
+        margin: auto;
+        width: 100%;
+    }
+    .select-time > div {
+        width: 30%;
+    }
+    .select-hours{
+        overflow: scroll;
+        font-size: 20px;
+        font-family: 'Myriad-Bold';
+        border-right: 1px solid;
+    }
+    .select-minutes {
+        overflow: scroll;
+        font-size: 20px;
+        font-family: 'Myriad-Bold';
+        border-right: 1px solid;
+    }
+    .select-mode {
+        font-size: 20px;
+        font-family: 'Myriad-Bold';
+    }
+    .select-hours > div {
+        cursor: pointer;
+    }
+    .select-minutes > div {
+        cursor: pointer;
+    }
+    .select-mode > div {
+        cursor: pointer;
+    }
+
+
+
+
+    /*Multi Calendar*/
+    .grid-box-scroll {
+        
+    }
+    .grid-box-main {
+        width: 95%;
+        flex-wrap: wrap;
+        height: 95%;
+    margin: auto;
+    overflow: scroll;
+    }
+    .cal_box {
+        width: 31%;
+        height: 118px;
+        font-size: 30px;
+        font-family: 'Myriad-Bold';
+    }
+    .cal_box > span {
+        padding-top: 3%;
+    }
+    .grid-box-main >div:nth-child(odd) {
+        background-color: #fcb040;
+    }
+    .grid-box-main >div:nth-child(even) {
+        background-color: #59c4bc;
+    }
+    .grid-box-main > div {
+        margin: 1%;
+    }
+    /*Multi calendar ends*/
+    
+    /*Pop up starts*/
+    .popup {
+        background: #fff;
+        width: 85%;
+        height: 25%;
+        font-family: 'Myriad-Regular';
+        font-size: 25px;
+        color: #969090;
+        border-radius: 10px;
+    }
+    .overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.55);
+        transition: opacity 500ms;
+    }
+    .alert-icon-main {
+        width: 100%;
+        height:28%;
+        background-color: #F4B936;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .alert-icon {
+        width: 6.5%;
+        height: 65%;
+        color: transparent;
+        border: 6px solid #ffffff;
+        border-radius: 50px;
+        margin: auto;
+    }
+    .exc-symbol {
+        margin-top: 25%;
+        color: #ffffff;
+        font-size: 45px;
+    }
+    .alert-message {
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        font-size: 29px;
+    }
+    .alert-action {
+        width: 100%;
+        height: 27%;
+    }
+    .alert-action > div {
+        width: 20%;
+        height: 90%;
+        background-color: #F4B936;
+        color: #ffffff;
+        border-radius: 10px;
+    }
+    /*Pop up ends*/
+}

@@ -1,0 +1,1211 @@
+.cal-header {
+    height: 7%;
+    font-size: 35px;
+    font-family: 'Bryant';
+}
+.cal-footer {
+    height: 16%;
+}
+.calendarSection {
+    height: 76%;
+    width: 100%;
+}
+.calSection {
+    height: 100%;
+    width: 100%;
+}
+.cal-spring {
+    height: 10%;
+    background-image: url("../images/spring.png");
+    background-repeat: repeat-x;
+    background-size: 7%;
+    background-position: 12px 0px;
+}
+.cal-content {
+    height: 93%;
+    background-color: #ffffff;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+}
+.calendarContentScroll {
+    width: 99%;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+}
+.calendarContentScroll > div {
+    width: 96%;
+    margin: 0 auto;
+}
+.cal-innercontent {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+.cal-types {
+    height: 8%;
+    font-size: 25px;
+    margin-bottom: 1.5%;
+    padding: 0 16px;
+}
+.cal-community {
+    width: 50%;
+    height: 100%;
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-community-click {
+    width: 50%;
+    height: 100%;
+    background-color: #59c4bc;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-personal {
+    width: 50%;
+    height: 100%;
+    background-color: #59c4bc;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-personal-click {
+    width: 50%;
+    height: 100%;
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+
+.cal-month {
+    background-color: #59c4bc;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+.cal-month-main{
+    justify-content: space-around;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    height: 9%;
+    font-family: 'Myriad-Bold';
+}
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-right: 15px solid #59c4bc; 
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #59c4bc;
+}
+.cal-prevmonth{
+    width: 17%;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; 
+    -moz-justify-content: flex-start; 
+    padding-left: 2%;
+    cursor: pointer;
+    line-height: 65%;
+}
+.cal-curmonth{
+    width: 66%;
+    font-size: 35px;
+}
+.cal-nextmonth{
+    width: 17%;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end; 
+    -moz-justify-content: flex-end; 
+    padding-right: 2%;
+    cursor: pointer;
+    line-height: 76%;
+}
+.cal-nextmonth > p > span {
+    display: block;
+}
+.cal-prevmonth > p > span {
+    display: block;
+}
+.cal-prev{
+    font-size: 18px;
+}
+.cal-monthprev{
+    font-size: 23px;
+}
+.cal-next{
+    font-size: 27px;
+}
+.cal-monthnext{
+    font-size: 18px;
+}
+.cal-days{
+    justify-content: space-around;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    color: #59c4bc;
+    margin-top: 1%;
+    font-size: 23px;
+    height: 5%;
+    font-family: 'Myriad-Bold';
+    padding: 0 16px;
+}
+.cal-days > div {
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+
+}
+.cal-dates{
+    height: 84%;
+    padding: 0 10px;
+    font-size: 45px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    font-family: 'Myriad-Bold';
+}
+.cal-dates > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+    -moz-align-items: center;
+}
+.withDate {
+    width: 13%;
+    height: 15%;
+    background-color: #fcb040;
+}
+.selectedDate{
+    width: 13%;
+    height: 15%;
+    background-color: #16bad6;
+}
+.emptyDate {
+    width: 13%;
+    height: 15%;
+    background-color: #ffffff;
+}
+.todayDate {          
+    width: 13%;
+    height: 15%;
+    background-color: gray;
+}
+.home-icon{
+    padding-top: 4px;
+}
+.calendar {
+    height: 91%;
+}
+/*Calendar main page ends*/
+
+/*Individual Calendar starts*/
+.calender-body {
+    background-color: #ffffff;
+    margin: auto;
+    width: 97%;
+    height: 100%;
+}
+.cal-select-date{
+    width:100%;
+    height: 12%;
+    margin:auto;
+    background-color: #59c4bc;
+}
+.cal-date-day {
+    width: 12%;
+    height:100%;
+    background-color: #fcb040;
+    color: #ffffff;
+    font-family: 'Myriad-Bold';
+    text-align: -webkit-center;
+    line-height: 33px;
+}
+.cal-date-day-display {
+    margin-top: 15%;
+}
+.cal-date {
+    font-size: 45px;
+    font-family: 'Myriad-Bold';
+}
+.cal-day {
+    font-size: 25px;
+    font-family: 'Myriad-Regular';
+}
+.cal-select-month {
+    font-family: 'Myriad-Bold';
+    font-size: 35px;
+    padding-left: 3%;
+    width: 75%;
+}
+.cal-event-list {
+    width:97%;
+    margin:auto;
+    height:88%;
+}
+.cal-event-list-empty {
+    width:90%;
+    margin:auto;
+    height:88%;
+    color: #fcb040;
+    font-size: 25px;
+    font-family: 'Myriad-Regular';
+}
+.empty-message {
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+}
+.event-list {
+    border-bottom: 1px solid #16bad6;
+    width: 100%;
+    height: 14%;
+    font-family: 'Myriad-Bold';
+}
+.event-time{
+    color: #50D1C7;
+    font-size: 25px;
+    padding-right: 3%;
+    width: 17%;
+}
+.event-name{
+    color: #19bad6;
+    font-size: 27px;
+    padding-left: 3%;
+    width: 65%;
+}
+.divider {
+    color: #50D1C7;
+    font-size: 33px;
+    width: 3%;
+}
+/*Individual Calendar ends*/
+
+/*Event Details starts*/
+.select-event {
+    width: 100%;
+    height: 11%;
+    background-color: #fcb040;
+}
+.cal-selected-event {
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 34px;
+    padding-left:3%;
+    width: 95%;
+    height: 100%;
+    overflow: scroll;
+}
+.event-description-main {
+    height: 10%;
+    width:100%;
+    color: #9a9a9a;
+    font-family: 'Myriad-Regular';
+    font-size: 31px;
+}
+.event-description {
+    width: 93%;
+    margin: 0 auto;
+}
+.event-message-main {
+    height: 33%;
+    background-color: rgba(195, 193, 193, 0.42);
+}
+.event-loc-host{
+    font-family:  'Myriad-Regular';
+}
+.event-timing-main {
+    height: 18%;
+}
+.event-message {
+    width: 93%;
+    margin: 0 auto;
+    height: 88%;
+    padding-top: 2%;
+    font-size: 30px;
+    color:#9A9A9A;
+    font-family: 'Myriad-Bold';
+    overflow: scroll;
+}
+.event-timing {
+    width: 93%;
+    margin: 0 auto;
+}
+.clock-icon {
+    width: 15%;
+}
+.display-event-time {
+    width: 60%;
+}
+.time-label {
+    font-family: 'Myriad-Regular';
+    color: #19BAD6;
+    font-size: 29px;
+}
+.time-divide {
+    font-family: 'Myriad-Regular';
+    color: #19BAD6;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.from-to-time {
+    font-family: 'Myriad-Bold';
+    color: #19BAD6;
+    font-size: 30px;
+}
+.event-list-main {
+    width: 28%;
+}
+.event-action-main {
+    height: 16%;
+    font-family: 'Myriad-Bold';
+}
+.event-actions {
+    height: 100%;
+    width: 93%;
+    margin: auto;
+}
+.event-action {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+}
+.event-action-register {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width:41%;
+    text-align: center;
+}
+.event-action-transport {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 47%;
+    text-align: center;
+}
+.event-edit-delete {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 30%;
+}
+.event-cancel {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 30%;
+}
+.event-action-message {
+    height: 58%;
+    font-size: 25px;
+    width: 100%;
+    color: #FCB040;
+    font-family: 'Myriad-Regular';
+}
+.goto-eventlist {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 100%;
+}
+.goto-eventlist-top {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width:100%;
+    font-family: 'Myriad-Bold';
+}
+.createEvent {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 42%;
+    font-size: 30px;
+    width: 27%;
+    font-family: 'Myriad-Bold';
+}
+/*Event Details Ends*/
+
+/*Create Event Starts*/
+textarea {
+    resize: none;
+}
+.add-event {
+    background-color: #FCB040;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 25px;
+    width: 40%;
+}
+.event-details-main {
+    color: #19bad6;
+    width: 100%;
+    height: 72%;
+}
+.event-details {
+    width: 93%;
+    height: 100%;
+    margin: 0 auto;
+}
+.create-event-name {
+    width: 100%;
+    height: 30%;
+}
+.create-event-description {
+    width: 100%;
+    height: 40%;
+}
+.create-event-starttime {
+    width: 100%;
+    height: 15%;
+}
+.create-event-endtime {
+    width: 100%;
+    height: 15%;
+}
+.event-details > div > div:first-child {
+    width: 40%;
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+}
+.event-details > div > div:nth-child(2) {
+    width: 60%;
+}
+.event-details > div > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-align-items: center;
+}
+.event-details > div> div > textarea {
+    border-color: #16bad6;
+}
+.event-start-end {
+    width: 35%;
+    height: 70%;
+    background-color: #16bad6;
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+    color: #ffffff;
+}
+/*Create Event Ends*/
+
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+    .cal-spring {
+        height: 8%;
+        background-size: 6%;
+        background-position: 38px 0px;
+    }
+    .cal-month-main {
+        height: 8%;
+    }
+}
+/*IPAD Portrait mode ends*/
+
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .cal-spring {
+        background-size: 4%;
+        background-position: 6px 0px;
+    }
+    .cal-content {
+        height: 89%;
+    }
+    .cal-types {
+        margin-bottom: 0.5%; 
+    }
+    .createEvent {
+        height: 56%;
+        font-size: 28px;
+        width: 21%;
+    }
+
+}
+/*IPAD Landscape mode ends*/
+
+/*MOBILE*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .calendarSection {
+        height: 70%;
+    }
+    .cal-spring {
+        height: 9%;
+        background-size: 9%;
+        background-position: 5px 0px;
+    }
+    .cal-content {
+        height: 91%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 11px;
+    }
+    .cal-prevmonth {
+        line-height: 11px;
+    }
+    .cal-next {
+        font-size: 14px;
+    }
+    .cal-monthnext {
+        font-size: 10px;
+    }
+    .cal-prev {
+        font-size: 10px;
+    }
+    .cal-monthprev {
+        font-size: 13px;
+    }
+    .cal-curmonth {
+        font-size: 17px;
+    }
+    .cal-days {
+        font-size: 14px;
+    }
+    .cal-dates {
+        font-size: 19px;
+    }
+
+    /*Event List starts*/
+    .cal-date-day {
+        width: 21%;
+        line-height: 21px;
+    }
+    .cal-date {
+        font-size: 26px;
+    }
+    .cal-day {
+        font-size: 15px;
+    }
+    .cal-select-month {
+        font-size: 21px;
+    }
+    .event-time {   
+        font-size: 13px;
+        width: 22%;
+    }
+    .divider {
+        font-size: 24px;
+        width: 4%;
+    }
+    .event-name {
+        font-size: 18px;
+    }
+    .createEvent {
+        border-radius: 4px;
+        font-size: 15px;
+        width: 34%;
+    }
+    /*Event List ends*/
+    /*Event details starts*/
+    .cal-select-date {
+        height: 10%;
+    }
+    .cal-selected-event {
+        font-size: 23px;
+    }
+    .event-description-main {
+        height: 7%;
+        font-size: 18px;
+    }
+    .event-message-main {
+        height: 38%;
+    }
+    .event-message {
+        height: 92%;
+        font-size: 22px;
+    }
+    /*    .event-timing-main {
+            height: 15%;
+        }
+        .event-action-main {
+            height: 19%;
+        }*/
+    .clock-icon {
+        width: 20%;
+    }
+    .clock-icon > img {
+        width: 40px;
+        height: 40px;
+    }
+    .display-event-time {
+        width: 80%;
+    }
+    .time-label {
+        font-size: 20px;
+    }
+    .time-divide {
+        font-size: 25px;
+    }
+    .from-to-time {
+        font-size: 23px;
+    }
+    .event-action-transport {
+        border-radius: 5px;
+        height: 85%;
+        font-size: 11px;
+        width: 48%;
+    }
+    .goto-eventlist {
+        border-radius: 5px;
+        height: 82%;
+        font-size: 11px;
+    }
+
+    /*Create event*/
+    .create-event-name > div > textarea {
+        height: 55%;
+    }
+    .create-event-description > div > textarea {
+        height: 100%;
+    }
+    .event-details > div > div:first-child {
+        font-size: 17px;
+    }
+    .event-start-end {
+        width: 55%;
+        height: 78%;
+        font-size: 18px;
+    }
+    .add-event {
+        border-radius: 5px;
+        height: 82%;
+        font-size: 11px;
+    }
+
+}
+/*IPHONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .cal-spring {
+        background-size: 4%;
+        background-position: 1px 0px;
+    }
+    .cal-content {
+        height: 90%;
+    }
+    .cal-types {
+        height: 11%;
+        margin-bottom: 1%;
+    }
+    .cal-dates {
+        height: 79%;
+        font-size: 19px;
+    }
+    .calendar {
+        height: 84%;
+    }
+    .cal-month-main {
+        height: 13%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 11px;
+    }
+    .cal-prevmonth {
+        line-height: 11px;
+    }
+    .cal-next {
+        font-size: 16px;
+    }
+    .cal-monthnext {
+        font-size: 11px;
+    }
+    .cal-prev {
+        font-size: 11px;
+    }
+    .cal-monthprev {
+        font-size: 12px;
+    }
+    .cal-curmonth {
+        font-size: 20px;
+    }
+    .cal-days {
+        font-size: 14px;
+        height: 9%;    
+    }
+
+    /*Event List starts*/
+    .cal-date-day {
+        width: 14%;
+        line-height: 15px;
+    }
+    .cal-date-day-display {
+        margin-top: 8%;
+    }
+    .cal-date {
+        font-size: 21px;
+    }
+    .cal-day {
+        font-size: 15px;
+    }
+    .cal-select-month {
+        font-size: 25px;
+    }
+    .event-time {
+        font-size: 13px;
+        width: 22%;
+    }
+    .divider {
+        font-size: 24px;
+        width: 4%;
+    }
+    .event-name {
+        font-size: 18px;
+    }
+    .createEvent {
+        border-radius: 5px;
+        font-size: 13px;
+        width: 85%;
+        height: 17%;
+        text-align: center;
+    }
+    .event-list {
+        height: 19%;
+    }
+    /*Event List ends*/
+
+    .calendarSection {
+        height: 86%;
+    }
+    .calSection {
+        width: 89%;
+    }
+    .sideFooter {
+        width: 11%;
+    }
+
+    /*Event details*/
+    .select-event {
+        height: 16%;
+    }
+    .event-description-main {
+        font-size: 17px;
+    }
+    .event-message-main {
+        height: 27%;
+    }
+    .cal-selected-event {
+        font-size: 22px;
+    }
+    .event-message {
+        padding-top: 1%;
+        font-size: 19px;
+    }
+    .event-timing-main {
+        height: 15%;
+    }
+    .clock-icon {
+        width: 10%;
+    }
+    .clock-icon > img {
+        width: 32px;
+        height: 31px;
+    }
+    .display-event-time {
+        width: 90%;
+        height: 100%;
+    }
+    .display-event-time > div {
+        height: 50%;
+        width: 50%;
+    }
+    .time-label {
+        font-size: 19px;
+    }
+    .time-divide {
+        font-size: 27px;
+    }
+    .from-to-time {
+        font-size: 18px;
+    }
+    .event-action-main {
+        height: 20%;
+    }
+    .event-action-transport {
+        border-radius: 5px;
+        height: 90%;
+        font-size: 14px;
+    }
+    .goto-eventlist {
+        border-radius: 4px;
+        height: 90%;
+        font-size: 14px;
+    }
+
+    /*Create event*/
+    .event-details-main {
+        height: 67%;
+    }
+    .create-event-name > div > textarea {
+        height: 55%;
+    }
+    .create-event-description > div > textarea {
+        height: 100%;
+    }
+    .event-details > div > div:first-child {
+        font-size: 17px;
+    }
+    .event-start-end {
+        width: 48%;
+        height: 78%;
+        font-size: 16px;
+    }
+    .add-event {
+        border-radius: 5px;
+        height: 91%;
+        font-size: 14px;
+    }
+    .event-details > div > div:first-child {
+        width: 35%;
+    }
+
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .calendarSection {
+        height: 72%;
+    }
+    .cal-spring {
+        height: 9%;
+        background-size: 9%;
+        background-position: 5px 0px;
+    }
+    .cal-content {
+        height: 91%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 14px;
+    }
+    .cal-prevmonth {
+        line-height: 14px;
+    }
+    .cal-next {
+        font-size: 16px;
+    }
+    .cal-monthnext {
+        font-size: 12px;
+    }
+    .cal-prev {
+        font-size: 12px;
+    }
+    .cal-monthprev {
+        font-size: 15px;
+    }
+    .cal-curmonth {
+        font-size: 20px;
+    }
+    .cal-days {
+        font-size: 14px;
+    }
+    .cal-dates {
+        font-size: 19px;
+    }
+    /*Event List starts*/
+    .cal-date-day {
+        width: 21%;
+        line-height: 21px;
+    }
+    .cal-date {
+        font-size: 26px;
+    }
+    .cal-day {
+        font-size: 15px;
+    }
+    .cal-select-month {
+        font-size: 25px;
+    }
+    .event-time {
+        font-size: 13px;
+        width: 22%;
+    }
+    .divider {
+        font-size: 24px;
+        width: 4%;
+    }
+    .event-name {
+        font-size: 18px;
+    }
+    .createEvent {
+        border-radius: 4px;
+        font-size: 15px;
+        width: 34%;
+    }
+    /*Event List ends*/
+    /*Event Description*/
+    .cal-select-date {
+        height: 10%;
+    }
+    .cal-selected-event {
+        font-size: 19px;
+    }
+    .select-event {
+        height: 10%;
+    }
+    .event-description-main {
+        height: 8%;
+        font-size: 20px;
+    }
+    .event-message-main {
+        height: 45%;
+    }
+    .event-message {
+        font-size: 18px;
+    }
+    .event-timing-main {
+        height: 11%;
+    }
+    .clock-icon {
+        width: 20%;
+    }
+    .clock-icon > img {
+        width: 40px;
+        height: 40px;
+    }
+    .display-event-time {
+        width: 80%;
+    }
+    .from-to-time {
+        font-size: 21px;
+    }
+    .time-divide {
+        font-size: 22px;
+    }
+    .time-label {
+        font-size: 18px;
+    }
+    .event-action-transport {
+        border-radius: 5px;
+        height: 83%;
+        font-size: 12px;
+    }
+    .goto-eventlist {
+        border-radius: 5px;
+        height: 83%;
+        font-size: 12px;
+    }
+
+    /*Create event*/
+    .create-event-name > div > textarea {
+        height: 55%;
+    }
+    .create-event-description > div > textarea {
+        height: 100%;
+    }
+    .event-details > div > div:first-child {
+        font-size: 17px;
+    }
+    .event-start-end {
+        width: 55%;
+        height: 78%;
+        font-size: 18px;
+    }
+    .add-event {
+        border-radius: 5px;
+        height: 82%;
+        font-size: 12px;
+    }
+
+}
+/*Other Mobile devices Portrait mode ends*/
+
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) { 
+    .calSection {
+        height: 100%;
+        width: 90%;
+    }
+    .sideFooter {
+        height: 100%;
+        width: 10%;
+    }
+    .calendarSection {
+        height: 86%;
+    }
+    .cal-content {
+        height: 88%;
+    }
+    .cal-spring {
+        background-size: 4%;
+        background-position: 20px 0px;
+    }
+    .cal-month-main {
+        height: 12%;
+    }
+    .cal-days {
+        height: 9%;
+    }
+    .event-list {
+        height: 16%;
+    }
+
+    /*Create event*/
+    .event-details-main {
+        height: 67%;
+    }
+    .create-event-name > div > textarea {
+        height: 55%;
+    }
+    .create-event-description > div > textarea {
+        height: 100%;
+    }
+    .event-details > div > div:first-child {
+        font-size: 17px;
+    }
+    .event-start-end {
+        width: 48%;
+        height: 78%;
+        font-size: 16px;
+    }
+    .add-event {
+        border-radius: 5px;
+        height: 91%;
+        font-size: 14px;
+    }
+    .event-details > div > div:first-child {
+        width: 35%;
+    }
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+
+/*Larger screens */
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+    .calendarSection {
+        height: 75%;
+        width: 100%;
+    }
+    .cal-spring {
+        background-size: 3% auto;
+        background-position: 28px 0px;
+    }
+    .cal-next {
+        font-size: 22px;
+    }
+    .cal-nextmonth {
+        line-height: 70%;
+    }
+    .cal-days {
+        height: 6%;
+        margin-top: 0.5%;
+    }
+    .cal-dates {
+        height: 83%;
+    }
+    /*Event list*/
+    .cal-date-day {
+        line-height: 28px;
+    }
+    .cal-day {
+        font-size: 23px;
+    }
+    .cal-date {
+        font-size: 40px;
+    }
+
+    /*Event details*/
+    .cal-date-day-display {
+        margin-top: 5%;
+    }
+
+    /*Create Event*/
+    .create-event-name > div > textarea {
+        height: 65%;
+        width: 80%;
+    }
+    .create-event-description > div > textarea {
+        width: 80%;
+        height: 92%;
+    }
+    .goto-eventlist {
+        height: 77%;
+    }
+    .add-event {
+        height: 77%;
+    }
+}
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1100px)  {
+
+}
+@media only screen and (min-width: 1500px) {
+    .cal-spring {
+        background-size: 3% auto;
+    }
+    .cal-types {
+        margin-bottom: 0.5%;
+    }
+    .cal-days {
+        margin-top: 0.5%;
+    }
+    /*Create Event*/
+    .event-details > div > div:first-child {
+        width: 30%;
+    }
+    .event-details > div > div > textarea {
+        width: 70%;
+    }
+}
+/*Larger screens ends */
+
+
+

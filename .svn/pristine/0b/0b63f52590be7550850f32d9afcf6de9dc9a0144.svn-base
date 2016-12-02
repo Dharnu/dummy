@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CCRC - Calendar</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/common_style.css" />
+    </head>
+    <body>
+        <div class="cal-container">
+            <header class="cal-header centerAll">
+                CALENDAR
+            </header>
+            <div class="cal-spring cal-shadow1"></div>
+            <div class="cal-content centerContent cal-shadow">
+                <div class="cal-innercontent">
+                    <div class="cal-types displayFlex">
+                        <div id="Community" class="cal-community-click centerAll">
+                            Community Calendar
+                        </div>
+                        <div id="Personal" class="cal-personal-click centerAll">
+                            Personal Calendar
+                        </div>
+                    </div>
+                    <div id="calendar" style="height:91%">
+                        <div class="cal-month-main centerItems">
+                            <div class="arrow-left"></div>
+                            <div class="cal-month displayFlex">
+                                <div class="cal-prevmonth centerItems">
+                                    <p><span class="cal-prev">PREVIOUS</span><span class="cal-monthprev">MONTH</span></p>
+                                </div>
+                                <div  class="cal-curmonth centerAll">
+                                    May 2013
+                                </div>
+                                <div  class="cal-nextmonth centerItems">
+                                    <p><span class="cal-next">NEXT</span><span class="cal-monthnext">MONTH</span></p>
+                                </div>
+                            </div>
+                            <div class="arrow-right"></div>
+                        </div>
+                        <div class="cal-days displayFlex">
+                            <div>SUN</div>
+                            <div>MON</div>
+                            <div>TUE</div>
+                            <div>WED</div>
+                            <div>THU</div>
+                            <div>FRI</div>
+                            <div>SAT</div>
+                        </div>
+                        <div class="cal-dates centerItems">
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="withDate">1</div>
+                            <div class="withDate">2</div>
+                            <div class="withDate">3</div>
+                            <div class="withDate">4</div>
+                            <div class="withDate">5</div>
+                            <div class="withDate">6</div>
+                            <div class="withDate">7</div>
+                            <div class="withDate">8</div>
+                            <div class="withDate">9</div>
+                            <div class="withDate">10</div>
+                            <div class="withDate">11</div>
+                            <div class="withDate">12</div>
+                            <div class="withDate">13</div>
+                            <div class="selectedDate">14</div>
+                            <div class="selectedDate">15</div>
+                            <div class="selectedDate">16</div>
+                            <div class="selectedDate">17</div>
+                            <div class="withDate">18</div>
+                            <div class="withDate">19</div>
+                            <div class="withDate">20</div>
+                            <div class="withDate">21</div>
+                            <div class="withDate">22</div>
+                            <div class="withDate">23</div>
+                            <div class="withDate">24</div>
+                            <div class="withDate">25</div>
+                            <div class="withDate">26</div>
+                            <div class="withDate">27</div>
+                            <div class="withDate">28</div>
+                            <div class="withDate">29</div>
+                            <div class="withDate">30</div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                            <div class="emptyDate"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="cal-footer centerItems">
+                <div class="home-icon"><img src="images/home.png" width="150" height="150" /></div>
+            </footer>
+        </div>
+    </body>
+</html>

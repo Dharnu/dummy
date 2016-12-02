@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CCRC - Calendar</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../css/common_style.css" />
+    </head>
+    <body>
+        <div class="cal-container">
+            <header class="centerAll">
+                POPUP
+            </header>
+            <section><div class="overlay centerAll" id="overlay" style="display: flex;">
+                    <div class="confirm-popup popup_shadow  ">
+                        <div class="popup-header displayFlex">
+                            <div class="confirm-alert_icon centerAll">
+                                <div class="exc-symbol">&#x21;</div>
+                            </div>
+                        </div>
+                        <div class="popup-msg centerAll">
+                            Are you sure want to delete?
+                        </div>
+                        <div class="popup-action-main centerAll ">
+                            <div class="popup-action centerAll">YES</div>
+                            <div class="popup-action centerAll">NO</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

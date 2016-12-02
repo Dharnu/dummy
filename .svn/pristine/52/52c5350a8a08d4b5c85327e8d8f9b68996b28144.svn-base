@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CCRC - Calendar</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/common_style.css" />
+    </head>
+    <body>
+        <div class="cal-container">
+            <header class="centerAll">
+                EVENT DETAILS
+            </header>
+            <section>
+                <div class="calender-body cal-shadow">
+                    <div class="cal-select-date displayFlex">
+                        <div class="cal-date-day centerAll">
+                            <div class="cal-date-day-display flexDirection">
+                                <span class="cal-date">18</span>
+                                <span class="cal-day">WED</span>
+                            </div>
+                        </div>
+                        <div class="cal-select-month flexStart">September 2013</div>
+                    </div>
+                    <div class="select-event flexStart">
+                        <div class="cal-selected-event display">Wednesday Bingo</div>
+                    </div>
+                    <div class="event-description-main flexStart">
+                        <div class="event-description">Event description</div>
+                    </div>
+                    <div class="event-message-main">
+                        <div class="event-message flexDirection">
+                            <div>Bingo in the mail hall special prize will be given</div>
+                            <div>
+                                <span class="event-loc-host">Location:</span>
+                                <span>Main Lobby.</span>
+                            </div>
+                            <div>
+                                <span class="event-loc-host">Hosted By:</span>
+                                <span>MHKY.</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="event-timing-main justifyContent">
+                        <div class="event-timing displayFlex">
+                            <div class="clock-icon flexStart">
+                                <img src="images/clock_icon.png" width="70" height="70" alt="Clock" />
+                            </div>
+                            <div class="display-event-time justifyContent flexDirection">
+                                <div><span class="time-label">Start time</span><span class="time-divide">-</span><span class="from-to-time">5:00 PM</span></div>
+                                <div><span class="time-label">End time </span><span class="time-divide">-</span><span class="from-to-time">5:00 PM</span></div>
+                            </div>
+                            <div class="justifyContent flexDirection event-list-main">
+                                <div class="goto-eventlist-top centerAll">
+                                    EVENT LIST
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-action-main centerAll ">
+                        <div class="event-actions spaceBetween">
+                            <div class="event-action centerAll" style="display: none;">
+                                ADD TO PERSONAL CALENDAR
+                            </div>
+                            <div class="event-edit-delete centerAll" style="display: none;">
+                                EDIT EVENT
+                            </div>
+                            <div class="event-edit-delete centerAll" style="display: none;">
+                                DELETE EVENT
+                            </div>
+                            <div class="event-cancel centerAll" style="display: none;">
+                                CANCEL EVENT
+                            </div>
+                            <div class="event-action-message centerAll" style="display: none;">
+                                This event will be added to your schedule.
+                            </div>
+                            <div class="event-action-register centerAll" id="register">
+                                REGISTER FOR EVENT
+                            </div>
+                            <div class="event-action-transport centerAll">
+                                REGISTER FOR TRANSPORTATION
+                            </div>
+                            <div class="goto-eventlist centerAll"  style="display: none;">
+                                EVENT LIST
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <div class="alert-icon-main centerAll">
+                        <div class="alert-icon centerAll">
+                            <div class="exc-symbol">&#x21;</div>
+                        </div>
+                    </div>
+                    <div class="alert-message centerAll">
+                        You have registered for this event and it has been added to your Personal Calendar
+                    </div>
+                    <div class="alert-action centerAll">
+                        <div class="centerAll" id="alert-accept">
+                            OK
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="spaceBetween">
+                <div class="home-icon"><img src="images/home.png" width="150" height="150" /></div>
+                <div class="home-icon"><img src="images/calendar.png" width="150" height="150" /></div>
+            </footer>
+        </div>
+    </body>
+    <script>
+        var register = document.getElementById('register');
+        var overlay = document.getElementById('overlay');
+        var alertAccept = document.getElementById('alert-accept');
+        // Show Overlay and Popup
+        register.onclick = function () {
+            overlay.className = "overlay centerAll";
+        }
+        alertAccept.onclick = function () {
+            overlay.className = "overlay";
+        }
+    </script>
+</html>
+

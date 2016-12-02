@@ -1,0 +1,1594 @@
+.cal-header {
+    height: 7%;
+    font-size: 35px;
+    font-family: 'Bryant';
+}
+.cal-footer {
+    height: 16%;
+}
+.calendarSection {
+    height: 76%;
+    width: 100%;
+}
+.calSection {
+    height: 100%;
+    width: 100%;
+}
+.cal-spring {
+    height: 10%;
+    background-image: url("../images/spring.png");
+    background-repeat: repeat-x;
+    background-size: 7%;
+    background-position: 12px 0px;
+}
+.cal-content {
+    height: 93%;
+    background-color: #ffffff;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    -moz-align-items: flex-start;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+}
+.calendarContentScroll {
+    width: 99%;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+}
+.calendarContentScroll > div {
+    width: 96%;
+    margin: 0 auto;
+}
+.cal-innercontent {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+.cal-types {
+    height: 8%;
+    font-size: 25px;
+    margin-bottom: 1.5%;
+    padding: 0 16px;
+}
+.cal-community {
+    width: 50%;
+    height: 100%;
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-community-click {
+    width: 50%;
+    height: 100%;
+    background-color: #59c4bc;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-personal {
+    width: 50%;
+    height: 100%;
+    background-color: #59c4bc;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+.cal-personal-click {
+    width: 50%;
+    height: 100%;
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+}
+
+.cal-month {
+    background-color: #59c4bc;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+}
+.cal-month-main{
+    justify-content: space-around;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    height: 9%;
+    font-family: 'Myriad-Bold';
+}
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-right: 15px solid #59c4bc; 
+}
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #59c4bc;
+}
+.cal-prevmonth{
+    width: 17%;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; 
+    -moz-justify-content: flex-start; 
+    padding-left: 2%;
+    cursor: pointer;
+    line-height: 73%;
+}
+.cal-curmonth{
+    width: 66%;
+    font-size: 35px;
+}
+.cal-nextmonth{
+    width: 17%;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end; 
+    -moz-justify-content: flex-end; 
+    padding-right: 2%;
+    cursor: pointer;
+    line-height: 84%;
+}
+.cal-nextmonth > p > span {
+    display: block;
+}
+.cal-prevmonth > p > span {
+    display: block;
+}
+.cal-prev{
+    font-size: 20px;
+}
+.cal-monthprev{
+    font-size: 25px;
+}
+.cal-next{
+    font-size: 29px;
+}
+.cal-monthnext{
+    font-size: 20px;
+}
+.cal-days{
+    justify-content: space-around;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    color: #59c4bc;
+    margin-top: 1%;
+    font-size: 23px;
+    height: 5%;
+    font-family: 'Myriad-Bold';
+    padding: 0 16px;
+}
+.cal-days > div {
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+
+}
+.cal-dates{
+    height: 84%;
+    padding: 0 10px;
+    font-size: 45px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-around; 
+    -moz-justify-content: space-around; 
+    font-family: 'Myriad-Bold';
+}
+.cal-dates > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; 
+    -webkit-align-items: center;
+    display: -moz-flex; /* Mozilla */
+    -moz-justify-content: center; 
+    -moz-align-items: center;
+}
+.withDate {
+    width: 13%;
+    height: 15%;
+    background-color: #fcb040;
+}
+.selectedDate{
+    width: 13%;
+    height: 15%;
+    background-color: #16bad6;
+}
+.emptyDate {
+    width: 13%;
+    height: 15%;
+    background-color: #ffffff;
+}
+.todayDate {          
+    width: 13%;
+    height: 15%;
+    background-color: gray;
+}
+.home-icon{
+    padding-top: 4px;
+}
+.calendar {
+    height: 91%;
+}
+/*Calendar main page ends*/
+
+/*Individual Calendar starts*/
+.calender-body {
+    background-color: #ffffff;
+    margin: auto;
+    width: 97%;
+    height: 100%;
+}
+.cal-select-date{
+    width:100%;
+    height: 12%;
+    margin:auto;
+    background-color: #59c4bc;
+}
+.cal-date-day {
+    width: 12%;
+    height:100%;
+    background-color: #fcb040;
+    color: #ffffff;
+    font-family: 'Myriad-Bold';
+    text-align: -webkit-center;
+    line-height: 33px;
+}
+.cal-date-day-display {
+    margin-top: 15%;
+}
+.cal-date {
+    font-size: 45px;
+    font-family: 'Myriad-Bold';
+}
+.cal-day {
+    font-size: 25px;
+    font-family: 'Myriad-Regular';
+}
+.cal-select-month {
+    font-family: 'Myriad-Bold';
+    font-size: 35px;
+    padding-left: 3%;
+    width: 75%;
+}
+.cal-event-list {
+    width:97%;
+    margin:auto;
+    overflow-y: scroll;
+    height:88%;
+}
+.cal-event-list-empty {
+    width:90%;
+    margin:auto;
+    height:88%;
+    color: #fcb040;
+    font-size: 25px;
+    font-family: 'Myriad-Regular';
+}
+.empty-message {
+    width: 100%;
+    text-align: center;
+    text-align: -webkit-center;
+}
+.event-list {
+    border-bottom: 1px solid #16bad6;
+    width: 100%;
+    height: 14%;
+    font-family: 'Myriad-Bold';
+}
+.event-time{
+    color: #50D1C7;
+    font-size: 25px;
+    padding-right: 3%;
+    width: 17%;
+}
+.event-name{
+    color: #19bad6;
+    font-size: 27px;
+    padding-left: 3%;
+    width: 65%;
+}
+.divider {
+    color: #50D1C7;
+    font-size: 33px;
+    width: 3%;
+}
+/*Individual Calendar ends*/
+
+/*dinning menu list started*/
+
+.mainParentMenuList{
+    margin: auto;
+    width: 97%;
+    height: 100%;
+}
+.restuarntmenuContainer{
+    width: 95%;
+    height: 88%;
+    margin: auto
+
+}
+.menuActionContainer{
+    width: 97%;
+    height: 10%;
+    margin: auto
+}
+.menuScroll{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.menuListContent{
+    width:98%;
+    height:94.7%;
+    margin:0 auto;
+}
+.menuAction{
+    width:98%;
+    height:98%;
+}
+
+/*Dinning meal courses div starts here*/
+.divBasic {
+    width: 100%;
+    padding-bottom: 2%;
+
+}
+
+.mealCoursediv {
+    font-family: 'Myriad-Bold';
+    font-size: 28px;
+    font-weight: bold;
+    color: #fcb040;
+    height:8%;
+    width:100%;
+}
+.menuDiv {
+    background-color: #16bad6;
+    border-radius: 10px;
+    height: auto;
+}
+.menuDivContent{
+    width:95.5%
+}
+
+
+.itemDiv{
+    border-bottom: 1px solid #d0e3e6;
+    min-height: 10%;
+    overflow: auto;
+    width:100%;
+
+}
+.FoodName{
+    width:90%;
+    color:#ffffff;
+    font-family: 'Myriad-Regular';
+    font-size: 27px;
+    word-break: break-word;
+}
+.item:last-child{
+    border-bottom: 0px;
+}
+
+
+
+.item{
+    border-bottom: 1px solid #d0e3e6;
+    width: 100%;
+    height: 9.5%;
+    color: #ffffff;
+}
+.listDetails{
+    width:98%;
+    height:100%;
+}
+.itemName{
+    width: 90%;
+    height: 100%;
+    font-family: 'Myriad-Regular';
+    font-size: 27px;
+
+}
+.itemNameSelected{
+    font-family: 'Myriad-Bold';
+    font-size: 27px;
+    width: 90%;
+    height: 100%;
+}
+.tick {
+    height: 100%;
+    width: 10%;
+}
+.fa{
+    width: 10px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-width: 0 7px 7px 0;
+    -webkit-transform: rotate(40deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(40deg);  /* IE 9 */
+    transform: rotate(40deg);  /* Fir */
+}
+.itemListdiv{
+    width: 95%;
+    height: 100%;
+    color: #ffffff;
+    margin: auto;
+}
+.buttonStyle {
+
+    background-color: #fcb040; /* Green */
+    border: none;
+    border-radius: 10px;
+    height: 80%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Myriad-Bold';
+}
+.breakfastBS{
+    width: 25%;
+}
+
+.dinnerBS{
+    width: 19%;
+}
+.lunchBS{
+    width: 19%;
+}
+.buttonContent{
+    width: 92%;
+    height: 95%;
+    margin: auto;
+}
+.star{
+    width: 25%;
+    height: 100%;
+}
+.star >img {
+    width: 23px;
+    height: 23px;
+}
+.menuName{
+    width: 75%;
+    height: 100%;
+    padding-top: 2.4%;
+
+}
+
+.orderButtonStyle {
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 28%;
+    height: 80%;
+    font-size: 20px;
+    background-color: #59c4bc;
+    font-family: 'Myriad-Bold';
+}
+
+/*Dinning meal courses div starts here*/
+/*dinning menu list ends*/
+
+/*hotel name with pre-order and avaliable menus starts*/
+.restaurantMain{
+    height:76%;
+}
+.restaurantParent{
+    width: 100%;
+    height: 88%;
+    margin: auto
+
+}
+.restaurantAvailContainer{
+    width: 90%;
+    height: 12%;
+    margin: auto
+}
+.restaurantScroll{
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.restaurantContent{
+    width:98%;
+    height:100%;
+    margin:0 auto;
+}
+.OrderParentDiv{
+    width:100%;
+    height:100%;
+
+}
+.restaurantToOrder, .restaurantAlreadtOrder {
+    width: 46%;
+    height: 30%;
+    border-radius: 10px;
+    color: #ffffff;
+    float: left;
+    margin: 2%;
+}
+.preOrdercolor{
+    background-color:  #F4A639;
+}
+.alreadyOrderedColor{
+    background-color: #16bad6;
+}
+.preOrderHeadingDiv ,.ALOrderHeadingDiv{
+    width:100%;
+    height:100%;
+}
+.toOrderMainDiv{
+    width: 100%;
+    height: 25%;
+    margin : 0 auto;
+}
+.toOrderMainDivRadius{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mealTimmingContainer{
+    width:100%;
+    height:75%;
+}
+.restaurantNameLableDiv{
+    width:96%;
+    height:98%;
+
+}
+.preOrderRestaurant{
+    background-color: #F6B55A;
+}
+.alreadyOrderedRestaurant{
+    background-color: #24C5E1;
+}
+.alreadyOrderedsymbol{
+
+    width: 10px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-width: 0 5px 5px 0;
+    -webkit-transform: rotate(45deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(45deg);  /* IE 9 */
+    transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera */
+}
+.preOrderstar ,.tickmark ,.minpreOrderstar,.empty{
+    width:25%;
+    height:100%;
+}
+
+
+.preOrderstar > img{
+    width: 29px;
+    height: 29px;
+}
+.minpreOrderstar > img {
+    width: 22px;
+    height: 22px;
+}
+.Rsname{
+    width:50%;
+    height:100%;
+    font-size: 30px;
+    font-family: 'Myriad-Bold';
+}
+.TimmingContent{
+    width:90%;
+    height:80%;
+}
+.breakfastTimming,.lunchTimming,.dinnerTimming{
+    width:100%;
+    height:33%
+}
+.Lable{
+    font-family: 'Myriad-Regular';
+    font-size: 28px;
+    width:80%;
+    height: 100%;
+}
+.avaliablityContent{
+    width:95%;
+    height:97%
+}
+.preOrderAvailDiv ,.alreadyOrderedDiv{
+    width:50%;
+    height:100%;
+}
+.OrderContentText{
+    width:96%;
+    height:100%;
+}
+.orderidentity{
+    width:25%;
+    height:100%;
+}
+.nameOfIdentity ,.AOnameOfIdentity{
+    width:65%;
+    height:100%;
+}
+.nameOfIdentity > div {
+    font-size: 24px;
+    font-family: 'Myriad-Regular';
+    color:#F6B55A;
+}
+.AOnameOfIdentity > div{
+    font-size: 24px;
+    font-family: 'Myriad-Regular';
+    color:#16bad6;
+}
+.commonbackground {
+    width: 63%;
+    height: 50%;
+    border-radius: 10px;
+}
+.backcolor{
+
+    background-color: #F4A639;
+}
+.ALbackcolor{
+    background-color: #16bad6;
+}
+/*hotel name with pre-order and avaliable menus ends*/
+
+/* place ordrer (food)) starts here*/
+.parentDeliveryDiv{
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 97%;
+    height: 14%;
+}
+.detailsListParent{
+    width:96%;
+    height:100%;
+    margin : 0 auto;
+}
+.itemsListContainer{
+    width:100%;
+    height:60%;
+}
+.placeOrderScroll{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.placeOrderContent{
+    width:98%;
+    height:90%;
+}
+.mealParent{
+    width: 100%;
+    padding-bottom: 2%;
+    height:auto;
+}
+.orderActionButton{
+    width:100%;
+    height:40%;
+}
+.mealCourseMaindiv{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fcb040;
+    height: 13%;
+    width: 100%;
+    font-family: 'Myriad-Bold';
+}
+.FoodNamediv{
+    width:100%;
+    min-height: 17%;
+    overflow: auto;
+   background-color: #D7F6F4;
+       border-radius: 10px;
+}
+.MealParentContent{
+    width:100%;
+    height:auto;
+     background-color: #D7F6F4;
+    border-radius: 10px;
+}
+.FoodNamediv1{
+    border-bottom: 2px solid #ffffff;
+   word-break: break-word;
+}
+.FoodNamediv > div{
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color:#16BAD6;
+    width:95%;
+}
+.deliveryDetailsContainer{
+    width:95%;
+    height:96%;
+    margin: auto;
+}
+.locationDetailContainer{
+    width:98%;
+    height:60%;
+    margin: auto;
+}
+.locationDetailContent {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+
+}
+.TimmingContainer{
+    width:98%;
+    height:40%;
+    margin: auto;
+}
+.deliverylocation ,.deliveryType, .deliveryTime{
+    width: 100%;
+    height:33%;
+}
+.deliverylable{
+    width:30%;
+    height:100%;
+}
+.details{
+    width:70%;
+    height:100%;
+}
+.labelstyle{
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color:#16BAD6;
+}
+.detailsStyle{
+    font-size: 25px;
+    color:#16BAD6;
+    font-family: 'Myriad-Bold';
+}
+.orderedbuttonStyle,.buttonStyleUnOdered {
+
+    border: none;
+    border-radius: 10px;
+    height: 60%;
+    color: white;
+    font-size: 23px;
+    font-family: 'Myriad-Bold';
+}
+.startButtonContainer{
+
+    border: none;
+    border-radius: 10px;
+    height: 65%;
+    color: white;
+    font-size: 26px;
+    font-family: 'Myriad-Bold';
+
+}
+.buttonBS{
+    width:35%;
+    background-color: #16BAD6;
+}
+.buttonLU{
+    width:27%;
+    background-color: #F6B55A;
+}
+.OrdermenuAction{
+    width: 80%;
+    height: 98%;
+}
+.star1{
+    width:35%;
+    height:100%;
+}
+.starOrder > img {
+    width: 23px;
+    height: 23px;
+}
+.actionControl{
+    width:95%;
+    height:85%;
+    margin: 0 auto;
+}
+.ActionButtondiv{
+    width:50%;
+    height:100%;
+}
+.conformButton{
+    width:50%;
+    height:100%;
+}
+.startButtonColor{
+    background-color: #59c4bc;
+    width:48%;
+}
+.conformButtonColor{
+    background-color: #F4A639;
+    width:50%;
+}
+/* place ordrer (food)) ends here*/
+
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+    .cal-spring {
+        height: 8%;
+        background-size: 6%;
+        background-position: 38px 0px;
+    }
+    .cal-month-main {
+        height: 13%;
+    }
+
+}
+/*IPAD Portrait mode ends*/
+
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .cal-spring {
+        background-size: 4%;
+        background-position: 6px 0px;
+    }
+    .cal-content {
+        height: 89%;
+    }
+    .cal-types {
+        margin-bottom: 0.5%; 
+    }
+
+    /*dinning landscape menu_list starts here*/
+    .mealCoursediv {
+        height: 11%;
+    }
+    .breakfastBS {
+        width: 22%;
+    }
+    .item {
+        height: 19%;
+    }
+    .buttonStyle, .orderButtonStyle {
+        height: 70%;
+    }
+    .menuListContent {
+        height: 96.7%;
+    }
+    .restuarntmenuContainer {
+        width: 95%;
+        height: 80%;
+    }
+    .star > img {
+        width: 25px;
+        height: 25px;
+    }
+    .star {
+        width: 25%;
+        height: 100%;
+    }
+    .menuName {
+        width: 75%;
+        height: 100%;
+    }
+    .orderButtonStyle {
+        font-size: 26px;
+    }
+    .buttonStyle {
+        font-size: 29px;
+    }
+    .menuActionContainer {
+        height: 17%;
+    }
+    /*dinning menu list starts here*/
+
+    /*dinning restrauant list landscape starts here*/
+    .restaurantToOrder, .restaurantAlreadtOrder {
+        height: 41%;
+    }
+    .restaurantScroll {
+        height: 93%;
+    }
+    .commonbackground {
+        height: 70%;
+        width: 46%;
+    }
+    .nameOfIdentity > div {
+        font-size: 30px;
+    }
+    .AOnameOfIdentity > div {
+        font-size: 30px;
+    }
+    /*dinning restrauant list landscape starts here*/
+
+
+    /*place order page starts*/
+    .mealCourseMaindiv {
+        height: 20%;
+    }
+    .FoodNamediv {
+        min-height: 30%;
+    }
+    .locationDetailContent {
+        margin-top: 0%;
+        height: 100%;
+    }
+    .buttonBS {
+        width: 35%;
+    }
+    .orderedbuttonStyle, .buttonStyleUnOdered{
+        height: 80%;
+    }
+    .buttonLU {
+        width: 28%;
+    }
+    .OrdermenuAction {
+        width: 60%;
+    }
+    .parentDeliveryDiv {
+        width: 100%; 
+    }
+    .startButtonContainer {
+        height: 85%;
+        width: 45%;
+    }
+    .conformButtonColor {
+        width: 45%;
+    }
+    /*place order  page ends*/
+
+
+}
+/*IPAD Landscape mode ends*/
+
+/*MOBILE*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .calendarSection {
+        height: 70%;
+    }
+    .cal-spring {
+        height: 9%;
+        background-size: 9%;
+        background-position: 5px 0px;
+    }
+    .cal-content {
+        height: 91%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 11px;
+    }
+    .cal-prevmonth {
+        line-height: 11px;
+    }
+    .cal-next {
+        font-size: 14px;
+    }
+    .cal-monthnext {
+        font-size: 10px;
+    }
+    .cal-prev {
+        font-size: 10px;
+    }
+    .cal-monthprev {
+        font-size: 13px;
+    }
+    .cal-curmonth {
+        font-size: 17px;
+    }
+    .cal-days {
+        font-size: 14px;
+    }
+    .cal-dates {
+        font-size: 19px;
+    }
+    .create-event-name > div > textarea {
+        height: 55%;
+    }
+    .create-event-description > div > textarea {
+        height: 100%;
+    }
+    .event-details > div > div:first-child {
+        font-size: 17px;
+    }
+    .event-start-end {
+        width: 55%;
+        height: 78%;
+        font-size: 18px;
+    }
+    .add-event {
+        border-radius: 5px;
+        height: 82%;
+        font-size: 11px;
+    }
+    /*dinning menu list starts here*/
+    .item {
+        height: 13%;
+    }
+    .FoodName {
+        font-size: 15px;
+    }
+    .mealCoursediv {
+        font-size: 18px;
+        height: 8%;
+    }
+    .itemNameSelected ,  .itemName {
+        font-size: 15px;
+    }
+    .buttonStyle ,.orderButtonStyle {
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .orderButtonStyle {
+        width: 24%;
+        height:80%;
+    }
+
+    .star > img {
+        width: 12px;
+        height: 12px;
+    }
+    .breakfastBS {
+        width: 27%;
+    }
+    .lunchBS {
+        width: 21%;
+    }
+    .dinnerBS {
+        width: 21%;
+    }
+    .fa {
+        width: 5px;
+        height: 10px;
+        border-width: 0 5px 5px 0;
+        -webkit-transform: rotate(45deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(45deg);  /* IE 9 */
+        transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera */
+        
+    }
+    .menuDiv {
+        border-radius: 5px;
+    }
+
+    /*dinning menu list ends here*/
+    /*dinning RESTARUANT list STARTS here*/
+    .preOrderstar > img {
+        width: 15px;
+        height: 15px;
+    }
+    .Rsname {
+        font-size: 14px;
+    }
+    .minpreOrderstar > img {
+        width: 10px;
+        height: 10px;
+    }
+    .Lable {
+        font-size: 15px;
+    }
+    .alreadyOrderedsymbol {
+        width: 5px;
+        height: 10px;
+        border-width: 0 4px 4px 0;
+        -webkit-transform: rotate(45deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(45deg);  /* IE 9 */
+        transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    .restaurantToOrder, .restaurantAlreadtOrder {
+        border-radius: 5px;
+    }
+    .nameOfIdentity > div {
+        font-size: 10px;
+    }
+    .AOnameOfIdentity > div {
+        font-size: 11px;
+    }
+    .commonbackground {
+        border-radius: 5px;
+    }
+    .orderidentity {
+        width: 35%;
+    }
+    .commonbackground {
+        width: 70%;
+    }
+    /*dinning RESTARUANT list STARTS here*/
+
+    /*place order starts here(iphone potrait))*/
+    .mealCourseMaindiv {
+        font-size: 18px;
+    }
+    .FoodNamediv > div {
+        font-size: 15px;
+    }
+    .labelstyle {
+        font-size: 11px;
+    }
+    .detailsStyle {
+        font-size: 12px;
+    }
+    .FoodNamediv {
+        min-height: 21%;
+        border-radius: 5px;
+    }
+    .starOrder > img {
+        width: 15px;
+        height: 15px;
+    }
+    .orderedbuttonStyle, .buttonStyleUnOdered {
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .OrdermenuAction {
+        width: 90%;
+
+    }
+    .buttonLU {
+        width: 29%;
+    }
+    .startButtonContainer {
+        border-radius: 5px;
+        font-size: 11.5px;
+    }
+
+
+    /*place order starts here(iphone potrait))*/
+
+}
+/*IPHONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .cal-spring {
+        background-size: 4%;
+        background-position: 1px 0px;
+    }
+    .cal-content {
+        height: 90%;
+    }
+    .cal-types {
+        height: 11%;
+        margin-bottom: 1%;
+    }
+    .cal-dates {
+        height: 79%;
+        font-size: 19px;
+    }
+    .calendar {
+        height: 84%;
+    }
+    .cal-month-main {
+        height: 13%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 11px;
+    }
+    .cal-prevmonth {
+        line-height: 11px;
+    }
+    .cal-next {
+        font-size: 16px;
+    }
+    .cal-monthnext {
+        font-size: 11px;
+    }
+    .cal-prev {
+        font-size: 11px;
+    }
+    .cal-monthprev {
+        font-size: 12px;
+    }
+    .cal-curmonth {
+        font-size: 20px;
+    }
+    .cal-days {
+        font-size: 14px;
+        height: 9%;    
+    }
+
+
+    .calendarSection {
+        height: 86%;
+    }
+    .calSection {
+        width: 89%;
+    }
+    .sideFooter {
+        width: 11%;
+    }
+
+    /*dinning menu list starts here*/
+    .mealCoursediv {
+        font-size: 18px;
+        height: 14%;
+    }
+    .item {
+        height: 16%;
+    }
+    .itemNameSelected ,.itemName {
+        font-size: 18px;
+    }
+    .buttonStyle, .orderButtonStyle {
+        height: 80%;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .star >img {
+        width: 16px;
+        height: 16px;
+    }
+    .menuDiv {
+        border-radius: 5px;
+    }
+    .FoodName {
+        font-size: 15px;
+    }
+    .menuScroll {
+        width: 100%;
+    }
+    .restuarntmenuContainer {
+        height: 83%;
+    }
+    /*dinning menu list ends here*/
+    /*dinning RESTRAUANT list STARTS here*/
+    .restaurantToOrder, .restaurantAlreadtOrder {
+        height: 41%;
+        border-radius: 5px;
+    }
+    .preOrderstar > img {
+        width: 20px;
+        height: 20px;
+    }
+    .Rsname {
+        font-size: 19px;
+    }
+    .minpreOrderstar > img {
+        width: 15px;
+        height: 15px;
+    }
+    .Lable {
+        font-size: 17px;
+    }
+    .toOrderMainDiv {
+        height: 30%;
+    }
+    .alreadyOrderedsymbol {
+        width: 5px;
+        height: 10px;
+        border-width: 0 5px 5px 0;
+    }
+    .nameOfIdentity > div {
+        font-size: 16px;
+    }
+    .AOnameOfIdentity > div {
+        font-size: 18px;
+    }
+    .commonbackground {
+        border-radius: 5px;
+        height: 85%;
+        width: 54%;
+    }
+    .preOrderstar > img {
+        width: 15px;
+        height: 15px;
+    }
+    .fa {
+        width: 5px;
+        height: 10px;
+        border-width: 0 5px 5px 0;
+    }
+    .menuListContent {
+        height: 100%;
+    }
+    .menuActionContainer {
+        height: 15%;
+    }
+    .restaurantAvailContainer {
+        height: 10%;
+    }
+    /*dinning RESTRAUANT list ends here*/
+
+    /*delivery order page iphone landscape starts here*/
+    .mealCourseMaindiv {
+        font-size: 15px;
+        height: 18%;
+    }
+    .FoodNamediv > div {
+        font-size: 13px;
+    }
+    .FoodNamediv {
+        min-height: 30%;
+        border-radius: 5px;
+    }
+    .locationDetailContent {
+        margin-top: 2%;
+        height: 100%;
+    }
+    .labelstyle {
+        font-size: 12px;
+    }
+    .detailsStyle {
+        font-size: 12px;
+    }
+    .starOrder > img {
+        width: 10px;
+        height: 10px;
+    }
+    .orderedbuttonStyle, .buttonStyleUnOdered {
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .OrdermenuAction {
+        width: 70%;
+    }
+    .orderedbuttonStyle, .buttonStyleUnOdered {
+        border-radius: 5px;
+        height: 85%;
+    }
+    .startButtonContainer {
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .startButtonContainer {
+        border-radius: 5px;
+        height: 85%;
+    }
+    .deliverylocation,.deliveryType,.deliveryTime {
+        float:left;
+        width:50%
+    }
+    .deliverylable {
+        width: 48%;
+    }
+    /*delivery order page iphone landscape ends here*/
+
+
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .calendarSection {
+        height: 72%;
+    }
+    .cal-spring {
+        height: 9%;
+        background-size: 9%;
+        background-position: 5px 0px;
+    }
+    .cal-content {
+        height: 91%;
+    }
+    .cal-community-click {
+        font-size: 12px;
+    }
+    .cal-personal-click {
+        font-size: 12px;
+    }
+    .cal-nextmonth {
+        line-height: 14px;
+    }
+    .cal-prevmonth {
+        line-height: 14px;
+    }
+    .cal-next {
+        font-size: 16px;
+    }
+    .cal-monthnext {
+        font-size: 12px;
+    }
+    .cal-prev {
+        font-size: 12px;
+    }
+    .cal-monthprev {
+        font-size: 15px;
+    }
+    .cal-curmonth {
+        font-size: 20px;
+    }
+    .cal-days {
+        font-size: 14px;
+    }
+    .cal-dates {
+        font-size: 19px;
+    }
+
+    /*dinning menu list starts here*/
+    .mealCoursediv {
+        font-size: 19px;
+    }
+    .menuScroll {
+        width: 100%;
+    }
+    .itemNameSelected ,.itemName{
+        font-size: 15px;
+    }
+    .FoodName {
+        font-size: 15px;
+    }
+    .buttonStyle ,.orderButtonStyle {
+        height: 70%;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .orderButtonStyle {
+        font-size: 9px;
+    }
+    .star >img {
+        width: 14px;
+        height: 14px;
+    }
+    .lunchBS {
+        width: 20%;
+    }
+    .dinnerBS {
+        width: 20%;
+    }
+    .item {
+        height: 13%;
+    }
+    .fa {
+        width: 7px;
+        height: 12px;
+        border-width: 0 5px 5px 0;
+    }
+    /*dinning menu list ends here*/
+    /*dinning RESTRAUANT list starts here*/
+    .preOrderstar > img {
+        width: 20px;
+        height: 20px;
+    }
+    .Rsname {
+        font-size: 18px;
+    }
+    .minpreOrderstar > img {
+        width: 15px;
+        height: 15px;
+    }
+    .Lable {
+        font-size: 17px;
+    }
+    .restaurantToOrder, .restaurantAlreadtOrder {
+        border-radius: 5px;
+    }
+    .alreadyOrderedsymbol {
+        width: 5px;
+        height: 10px;
+        border-width: 0 5px 5px 0;
+    }
+    .nameOfIdentity > div {
+        font-size: 11px;
+    }
+    .AOnameOfIdentity > div {
+        font-size: 12px;
+    }
+    .commonbackground {
+
+        border-radius: 5px;
+    }
+    .Rsname {
+        font-size: 15px;
+    }
+    .orderidentity {
+        width: 35%;
+    }
+    .commonbackground {
+        width: 60%;
+        height: 50%;
+    }
+    /*dinning RESTRAUANT list ends here*/
+    /*place order page starts here*/
+    .mealCourseMaindiv {
+        font-size: 18px;
+        height: 15%;
+    }
+    .FoodNamediv > div {
+        font-size: 16.5px;
+    }
+    .labelstyle {
+        font-size: 12px;
+    }
+    .detailsStyle {
+        font-size: 12px;
+    }
+    .starOrder > img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .orderedbuttonStyle, .buttonStyleUnOdered {
+        border-radius: 5px;
+        height: 60%;
+
+        font-size: 12px;
+    }
+    .startButtonContainer {
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .FoodNamediv {
+        min-height: 19%;
+        border-radius: 5px;
+    }
+
+    /*place order page ends here*/
+}
+/*Other Mobile devices Portrait mode ends*/
+
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) { 
+    .calSection {
+        height: 100%;
+        width: 90%;
+    }
+    .sideFooter {
+        height: 100%;
+        width: 10%;
+    }
+    .calendarSection {
+        height: 86%;
+    }
+    .cal-content {
+        height: 88%;
+    }
+    .cal-spring {
+        background-size: 4%;
+        background-position: 20px 0px;
+    }
+    .cal-month-main {
+        height: 12%;
+    }
+    .cal-days {
+        height: 9%;
+    }
+    .event-list {
+        height: 16%;
+    }
+
+    /*dinning FOOD ORDER DELIVERY starts here*/
+
+    .starOrder > img {
+        width: 15px;
+        height: 15px;
+    }
+    .deliverylocation,.deliveryType,.deliveryTime {
+        float:left;
+        width:50%
+    }
+
+    /*dinning FOOD ORDER DELIVERY ends here*/
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+
+/*Larger screens */
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1100px)  {
+
+}
+/*Larger screens ends */
+
+
+
+

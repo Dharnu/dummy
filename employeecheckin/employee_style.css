@@ -1,0 +1,290 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 22, 2016, 4:26:51 PM
+    Author     : Administrator
+*/
+
+html, body {
+    background-color: #59c4bc;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.parentOfEmpCheckIn{
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+    background-color: #16BAD6;
+    border-radius:10px;
+}
+.employeeIdContainer{
+    width:100%;
+    height:20%;
+}
+.idKeysContainer{
+    width:100%;
+    height:65%;
+}
+.submitActionContainer{
+    width:100%;
+    height:15%;
+}
+.submitActionButton{
+    width:40%;
+    height:75%;
+    background-color:#ffffff;
+    color: #F4A639;
+    border-radius:10px;
+    font-family: 'Myriad-Bold';
+    font-size: 35px;
+}
+.enterIdLable{
+    width:40%;
+    height:100%;
+    color: #ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 35px;
+}
+.idContainer{
+    width:60%;
+    height:100%;
+}
+.idContainer > input {
+    font-family: 'Myriad-Bold';
+    font-size: 40px;
+    color: #F4A639;
+    width: 80%;
+    height: 45%;
+}
+.idKeysContent{
+    width:95%;
+    height:95%;
+}
+.idNumberKeys{
+    width: 23%;
+    height: 30%;
+    margin: 1%;
+    background-color: #F4A639;
+    color: #ffffff;
+    border-radius: 7px;
+    font-family: 'Myriad-Bold';
+    font-size: 40px;
+}
+.employeeLoginPage{
+    width:95%;
+    height:95%;
+    margin: 0 auto;
+}
+.loginTitle{
+    width:100%;
+    height:30%;
+    color: #16BAD6;
+    font-family: 'Myriad-Bold';
+    font-size: 35px;
+}
+.loginActionInOut{
+    width:100%;
+    height:25%;
+}
+.InOutActionContent{
+    width:35%;
+    height:50%;
+    margin: 0 auto;
+}
+.actionInButton,.actionOutButton{
+    width:100%;
+    height:100%;
+    background-color: #F4A639;
+    color: #ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 45px;
+    border-radius: 10px;
+}
+.statusText{
+    color: #16BAD6;
+    font-family: 'Myriad-Bold';
+    font-size: 33px;
+
+}
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .idContainer > input {
+        height: 65%;
+    }
+    .parentOfEmpCheckIn {
+
+        height: 90%;
+    }
+    .InOutActionContent {
+        width: 35%;
+        height: 60%;
+    }
+}
+/*IPAD Landscape mode ends*/
+
+/*Mobile*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .parentOfEmpCheckIn {
+        width:90%;
+        height: 85%;
+    }
+    .enterIdLable {
+
+        font-size: 23px;
+    }
+    .idContainer > input {
+
+        font-size: 25px;
+    }
+    .idNumberKeys {
+
+        font-size: 20px;
+    }
+    .submitActionButton {
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .InOutActionContent {
+        width: 45%;
+        height: 55%;
+    }
+    .actionInButton, .actionOutButton {
+        font-size: 35px;
+        border-radius: 5px;
+    }
+    .statusText {
+        font-size: 17px;
+    }
+}
+/*IPHONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .parentOfEmpCheckIn {
+        width: 90%;
+        height: 95%;
+    }
+    .enterIdLable {
+
+        font-size: 30px;
+    }
+    .idContainer > input {
+        font-size: 27px;
+        height: 69%;
+    }
+    .idNumberKeys {
+        border-radius: 5px;
+        font-size: 30px;
+    }
+    .submitActionButton {
+        width: 27%;
+        height: 80%;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .InOutActionContent {
+        height: 80%;
+    }
+
+    .actionInButton, .actionOutButton {
+        font-size: 30px;
+        border-radius: 5px;
+    }
+    .statusText {
+        font-size: 22px;
+    }
+    .loginTitle {
+
+        height: 45%;
+    }
+
+
+}
+
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .parentOfEmpCheckIn {
+        width: 85%;
+        height: 80%;
+    }
+    .idContainer > input {
+        font-size: 25px;
+        width: 85%;
+    }
+    .enterIdLable {
+        font-size: 25px;
+    }
+    .idNumberKeys {
+        border-radius: 5px;
+        font-size: 23px
+    }
+    .submitActionButton {
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .InOutActionContent {
+        width: 45%;
+        height: 55%;
+    }
+    .actionInButton, .actionOutButton {
+        font-size: 35px;
+        border-radius: 5px;
+    }
+    .statusText {
+
+        font-size: 18px;
+    }
+
+}
+/*Other Mobile devices Portrait mode ends*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+    .employeeIdContainer {
+
+        height: 19%;
+    }
+    .idKeysContainer {
+        height: 65%;
+    }
+    .submitActionContainer {
+
+        height: 16%;
+    }
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1100px)  {
+
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-height: 1080px){
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}
+
+/*Desktop ends*/

@@ -1,0 +1,789 @@
+html ,body {
+    background-color: #59c4bc;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+} 
+
+/*Inbox page css starts*/
+.inbox {
+    width: 100%;
+    height: 88%;
+}
+.mailHeader {
+    width: 100%;
+    height: 10%;
+    background-color: #16bad6;
+    color: #ffffff;
+}
+.mailIcon  {
+    width: 15%;
+}
+.inboxHeader {
+    width: 54%;
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+}
+.inboxCount {
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+}
+.inboxMail {
+    font-family: 'Myriad-Regular';
+    font-size: 30px;
+}
+.createMail {
+    width: 30%;
+    height: 80%;
+    background-color: #fcb040;
+    border-radius: 8px;
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+}
+.inboxBody {
+    width: 100%;
+    height: 100%;
+    color: #16bad6;
+    margin: auto;
+}
+.inboxScroll {
+    width: 96%;
+    height: 93%;
+    margin: auto;
+    overflow: scroll;
+}
+.inboxContent {
+    width: 97%;
+    height: auto;
+    margin: 0 auto;
+}
+.mailList {
+    width: 100%;
+    height: 11%;
+}
+.newMail {
+    width: 5%;
+    height: 100%;
+}
+.orangeCircle {
+    width: 50%;
+    height: 21%;
+    background-color: #FCB040;
+    border-radius: 45%;
+}
+.mailDisplay {
+    width: 95%;
+    height: 100%;
+    border-bottom: 1px solid #16bad6;
+}
+.mailTitle {
+    width: 80%;
+    //height: 80%;
+}
+.mailTime {
+    width: 20%;
+    font-family: 'Myriad-Regular';
+    font-size: 20px;
+}
+.restoreEmail {
+    width: 20%;
+    height: 80%;
+    margin: 0 auto;
+    font-family: 'Myriad-Regular';
+    font-size: 27px;
+    background-color: #fcb040;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.mailContent {
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+}
+.mailContentOld {
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+}
+.mailFrom {
+    font-family: 'Myriad-Regular';
+    font-size: 20px;
+}
+.backDelete {
+    width: 50%;
+}
+/*Inbox page css ends*/
+
+/* Compose Email Starts*/
+.composeEmail {
+    width: 100%;
+    height: 88%;
+}
+.composeEmailBody {
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    color: #16bcd6;
+    font-family: 'Myriad-Regular';
+    font-size: 23px;
+}
+.composeEmailContent {
+    width: 100%;
+    height: 87%;
+}
+.composeEmailAction {
+    width: 100%;
+    height: 13%;
+}
+.composeEmailAction > div {
+    width: 100%;
+    height: 100%;
+}
+.composeEmailAction > div > div {
+    width: 30%;
+    height: 80%;
+    background-color: #fcb040;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Myriad-Regular';
+    font-size: 29px;
+}
+.composeEmailTo {
+    width: 100%;
+    height: 17%;
+}
+.composeEmailTo > input {
+    width: 100%;
+    height: 50%;
+    border-radius: 12px;
+    border-color: #fcb040;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 25px;
+    color: #16bad6;
+}
+.composeEmailCc {
+    width: 100%;
+    height: 17%;
+}
+.composeEmailCc > input {
+    width: 100%;
+    height: 50%;
+    border-radius: 12px;
+    border-color: #fcb040;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 25px;
+    color: #16bad6;
+}
+.composeEmailSubject {
+    width: 100%;
+    height: 66%;
+}
+.composeEmailSubject > div > input:first-child {
+    height: 13%;
+    width: 100%;
+    border-radius: 12px;
+    border-color: #fcb040;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: #16bad6;
+}
+.composeEmailSubject > div > textarea {
+    width: 100%;
+    height: 70%;
+    border-radius: 12px;
+    border-color: #fcb040;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 25px;
+    color: #16bad6;
+    resize: none;
+}
+.composeEmailContent > div > span {
+    width: 12%;
+}
+/*Compose mail ends*/
+/*Read mail starts*/
+.readMail {
+    width: 100%;
+    height: 88%;
+}
+.readMailBody {
+    width: 100%;
+    height: 78%;
+    margin: auto;
+    color: #16bad6;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+}
+.mailContentScroll {
+    width: 96%;
+    height: 90%;
+    margin: auto;
+    overflow: scroll;
+}
+.mailContentScroll > div {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.readMailAction {
+    width: 95%;
+    height: 20%;
+    margin: auto;
+    font-family: 'Myriad-Bold';
+
+}
+.readMailAction > div {
+    width: 100%;
+    height: 50%;
+}
+.readMailAction > div > div {
+    width: 24%;
+    height: 85%;
+    background-color: #fcb040;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+.readMailHeader {
+    width: 100%;
+    height: 12%;
+    background-color: #16bad6;
+    color: #ffffff;
+}
+.mailFromHeader {
+    width: 70%;
+    height: 100%;
+    font-family: 'Myriad-Regular';
+    font-size: 20px;
+}
+.mailFromHeader > div {
+    width: 95%;
+    margin: 0 auto;
+}
+.fromSubjectLabel {
+    color: #e6e6e6;
+}
+.zoomIcon {
+    width: 30%;
+    height: 100%;
+}
+.zoomIcon > img {
+    width: 50px;
+    height: 50px;
+}
+
+/*Read mail ends*/
+
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    /*Inbox page css starts*/
+    .mailHeader {
+        height: 12%;
+    }
+    .inboxHeader {
+        width: 65%;
+    }
+    .createMail {
+        width: 18%;
+        height: 87%;
+        font-size: 25px;
+    }
+    .mailList {
+        height: 16.5%;
+    }
+    .orangeCircle {
+        width: 45%;
+        height: 28%;
+    }
+
+    /*Inbox page css ends*/
+    /*Compose email*/
+    .composeEmailAction {
+        align-items: flex-end;
+        -webkit-align-items: flex-end;
+        -moz-align-items: flex-end;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+    }
+    .composeEmailAction > div {
+        width: 77%;
+    }
+    .composeEmailContent > div {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+    }
+    .composeEmailAction > div > div {
+        width: 25%;
+        border-radius: 7px;
+        font-size: 27px;
+    }
+    .composeEmailSubject > div {
+        width: 88%;
+        height: 100%;
+    }
+    .composeEmailContent > div > input {
+        width: 88%;
+        height: 65%;
+    }
+    .composeEmailSubject > div > input:first-child {
+        height: 18%;
+    }
+    .composeEmailSubject > div > textarea {
+        height: 75%;
+    }
+    /*Compose email ends*/
+    /*Read mail starts*/
+    .readMailBody {
+        height: 65%;
+    }
+    .readMailAction {
+        height: 33%;
+    }
+
+    /*Read mail ends*/
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+
+    .mailIcon {
+        width: 20%;
+    }
+    .mailIcon > img {
+        width: 50px;
+        height: 30px;
+    }
+    .inboxCount {
+        font-size: 17px;
+    }
+    .inboxMail {
+        font-size: 17px;
+    }
+    .createMail {
+        width: 25%;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .mailList {
+        height: 16.5%;
+    }
+    .mailContent {
+        font-size: 14px;
+    }
+    .mailFrom {
+        font-size: 14px;
+    }
+    .mailTime {
+        font-size: 13px;
+    }
+    .mailContentOld {
+        font-size: 15px;
+    }
+    .orangeCircle {
+        width: 90%;
+        height: 22%;
+    }
+    /*Compose email*/
+    .inboxHeader {
+        font-size: 23px;
+    }
+    .composeEmailBody {
+        font-size: 20px;
+    }
+    .composeEmailAction > div > div {
+        border-radius: 6px;
+        font-size: 23px;
+    }
+    /*Saved Email*/
+    .restoreEmail {
+        font-size: 13px;
+    }
+    /*Read mail body*/
+    .readMailBody {
+        font-size: 15px;
+    }
+    .readMailAction {
+        height: 28%;
+    }
+    .readMailAction > div > div {
+        font-size: 15px;
+    }
+    .zoomIcon > img {
+        width: 40px;
+        height: 40px;
+    }
+    .mailFromHeader {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .composeEmailContent {
+        height: 75%;
+    }
+    .composeEmailAction {
+        height: 23%;
+        align-items: flex-end;
+        -webkit-align-items: flex-end;
+        -moz-align-items: flex-end;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+    }
+    .composeEmailContent > div {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+    }
+    .composeEmailContent > div > span {
+        width: 17%;
+    }
+    .composeEmailTo {
+        height: 20%;
+    }
+    .composeEmailTo > input {
+        height: 70%; 
+        font-size: 15px;
+    }
+    .composeEmailCc {
+        height: 20%;
+    }
+    .composeEmailCc > input {
+        height: 70%; 
+        font-size: 15px;
+    }
+    .composeEmailSubject {
+        height: 60%;
+    }
+    .composeEmailSubject > div {
+        width: 100%;
+        font-size: 15px;
+    }
+    .composeEmailSubject > div > input:first-child {
+        height: 23%;
+        font-size: 15px;
+    }
+    .composeEmailSubject > div > textarea {
+        height: 61%;
+        font-size: 15px;
+    }
+    .inboxHeader {
+        width: 62%;
+    }
+    .mailIcon {
+        width: 12%;
+    }
+    .mailIcon > img {
+        width: 43px;
+        height: 23px;
+    }
+    .inboxCount {
+        font-size: 17px;
+    }
+    .inboxMail {
+        font-size: 17px;
+    }
+    .createMail {
+        width: 25%;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .mailList {
+        height: 24.5%;
+    }
+    .mailContent {
+        font-size: 14px;
+    }
+    .mailFrom {
+        font-size: 14px;
+    }
+    .mailTime {
+        font-size: 13px;
+    }
+    .mailContentOld {
+        font-size: 15px;
+    }
+    .orangeCircle {
+        width: 63%;
+        height: 36%;
+    }
+    /*Compose email*/
+    .inboxHeader {
+        font-size: 23px;
+    }
+    .composeEmailBody {
+        font-size: 17px;
+    }
+    .composeEmailAction > div > div {
+        border-radius: 5px;
+        font-size: 20px;
+        width: 25%;
+    }
+
+    /*Saved Email*/
+    .restoreEmail {
+        font-size: 13px;
+    }
+    /*Read mail body*/
+    .readMailHeader {
+        height: 17%;
+    }
+    .readMailBody {
+        font-size: 14px;
+    }
+    .readMailAction {
+        height: 28%;
+    }
+    .readMailAction > div > div {
+        font-size: 15px;
+    }
+    .zoomIcon > img {
+        width: 30px;
+        height: 30px;
+    }
+    .mailFromHeader {
+        font-size: 14px;
+    }
+
+    /*email*/
+    /*Email*/
+    /*Inbox starts*/
+    .inbox {
+        height: 84%;
+    }
+    .displayResidentName {
+        width: 30%;
+    }
+    .headerRight {
+        width: 30%;
+    }
+    .headerTitle {
+        width: 40%;
+    }
+    /*Read mail*/
+    .readMail {
+        height: 82%;
+    }
+    .readMailBody {
+        height: 60%;
+    }
+    .readMailAction > div > div {
+        height: 80%;
+    }
+    .readMailAction {
+        height: 40%;
+    }
+}
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .mailIcon {
+        width: 20%;
+    }
+    .mailIcon > img {
+        width: 50px;
+        height: 30px;
+    }
+    .inboxCount {
+        font-size: 19px;
+    }
+    .inboxMail {
+        font-size: 19px;
+    }
+    .createMail {
+        width: 25%;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .mailList {
+        height: 16.5%;
+    }
+    .mailContent {
+        font-size: 15px;
+    }
+    .mailFrom {
+        font-size: 15px;
+    }
+    .mailTime {
+        font-size: 15px;
+    }
+    .mailContentOld {
+        font-size: 15px;
+    }
+    .orangeCircle {
+        width: 90%;
+        height: 22%;
+    }
+    /*Compose email*/
+    .inboxHeader {
+        font-size: 23px;
+    }
+    .composeEmailBody {
+        font-size: 20px;
+    }
+    .composeEmailAction > div > div {
+        border-radius: 6px;
+        font-size: 23px;
+    }
+
+    /*Saved Email*/
+    .restoreEmail {
+        border-radius: 6px;
+        height: 70%;
+        font-size: 15px;
+    }
+    /*Read mail body*/
+    .readMailBody {
+        height: 66%;
+        font-size: 18px;
+    }
+    .readMailAction {
+        height: 28%;
+    }
+    .readMailAction > div > div {
+        font-size: 17px;
+    }
+    .zoomIcon > img {
+        width: 40px;
+        height: 40px;
+    }
+    .mailFromHeader {
+        font-size: 15px;
+    }
+
+}
+/*Other Mobile devices Portrait mode ends*/
+
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) { 
+    /*Email*/
+    /*Inbox starts*/
+    .inbox {
+        height: 84%;
+    }
+    /*Read mail*/
+    .readMail {
+        height: 82%;
+    }
+    .readMailBody {
+        height: 60%;
+    }
+    .readMailAction > div > div {
+        height: 90%;
+    }
+    .readMailAction {
+        height: 40%;
+    }
+    /*Read mail ends*/
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+    .readMailBody {
+        height: 79%;
+    }
+    .readMailAction {
+        height: 18%;
+    }
+    .orangeCircle {
+        width: 50%;
+        height: 41%;
+    }
+    .composeEmailSubject > div > textarea {
+        height: 67%;
+    }
+    .composeEmailAction > div > div {
+        height: 95%;
+    }
+    .mailList {
+        height: 57px;
+    }
+
+}
+/*Desktop ends*/
+/*Larger screens */
+@media only screen and (min-width: 1280px) {
+    /*Inbox list starts*/
+
+    .mailTitle {
+        width: 127%;
+    }
+    .mailIcon  {
+        width: 7%;
+    }
+    .inboxHeader {
+        width: 76%;
+    }
+    .createMail {
+        width: 16%;
+    }
+    /*Inbox list ends*/
+    /*Read mail starts*/
+    .mailFrom {
+        width: 84%;
+    }
+    .zoomIcon{
+        width: 16%;
+    }
+
+    .readMailAction > div {
+        height: 100%;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+    }
+    /*Read mail ends*/
+}
+@media only screen and (min-width: 1500px)  {
+    .mailList {
+        height: 62px;
+    }
+    .readMailBody {
+        height: 82%;
+    }
+    .readMailAction {
+        height: 10%;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+    }
+    .orangeCircle {
+        width: 50%;
+        height: 56%;
+    }
+}
+/*Larger screens ends */
+
+/*Larger screens */
+@media only screen and (min-width: 1280px) {
+    header {
+        width: 97%;
+    }
+}
+@media only screen and (min-width: 1100px)  {
+    /*    .contentBody {
+            height: 97%;
+        }
+        .containerMain {
+            height: 98%;
+        }*/
+    .mailFrom {
+        font-size: 15px;
+    }
+    .mailContentOld {
+        font-size: 20px;
+    }
+    .mailContent {
+        font-size: 20px;
+    }
+    .mailFromHeader {
+        width: 85%;
+    }
+}
+/*Larger screens ends */

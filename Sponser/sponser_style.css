@@ -1,0 +1,464 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2016, 9:47:13 AM
+    Author     : dharani
+*/
+
+.sponerImageContainer {
+    width: 95%;
+    height: 30%;
+    margin: 0 auto;
+}
+.sponserMainImage {
+    width: 100%;
+    height: 90%;
+    margin: 0 auto;
+}
+.sponserMainImage > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.sponserTitle {
+    width: 100%;
+    height: 10%;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+}
+.sponserContent {
+    width: 95%;
+    height: 70%;
+    margin: 0 auto;
+}
+.sponserTypes {
+    width: 100%;
+    height: 97%;
+    margin: 0 auto;
+    border: 1px solid #16bad6;
+    border-radius: 10px;
+    background-color: #16bad6;
+}
+.sponserTypesScroll {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    overflow: scroll;
+}
+.sponserList {
+    width: 100%;
+    height: 95%;
+    margin: 0 auto;
+}
+.sponsers {
+    width: 46%;
+    height: 46%;
+    margin: 2%;
+}
+.sponserCategoryImage {
+    width: 65%;
+    height: 50%;
+    margin: 0 auto;
+}
+.sponserCategoryImage > img {
+    width: 100%;
+    height: 100%;
+}
+.sponserCategory {
+    width: 100%;
+    height: 50%;
+    font-family: 'Myriad-Bold';
+    font-size: 29px;
+    text-align: center;
+}
+
+.sponserContentCategory {
+    width: 95%;
+    height: 70%;
+    margin: 0 auto;
+}
+.categoryTitle {
+    width: 100%;
+    height: 10%;
+    font-family: 'Myriad-Bold';
+    font-size: 29px;
+    color: #59C4BC;
+    margin: 0 auto;
+    text-align: center;;
+}
+.categoryContent {
+    width: 100%;
+    height: 87%;
+    margin: 0 auto;
+    border: 1px solid #16bad6;
+    border-radius: 10px;
+    background-color: #16bad6;
+}
+.categoryDetails {
+    width: 100%;
+    height: 87%;
+    margin: 0 auto;
+    border: 1px solid #16bad6;
+    border-radius: 10px;
+    background-color: #16bad6;
+}
+.categoryAttachmentConatiner {
+    width: 50%;
+    height: 100%;
+}
+.categoryAttachmentDetails {
+    width: 95%;
+    height: 90%;
+    margin: 0 auto;
+}
+.categoryDetailsDisplayContainer {
+    width: 50%;
+    height: 100%;
+}
+.categoryAttachment {
+    width: 97%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px solid #fcb040;
+}
+.categoryAttachment > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.attachmentDetails {
+    width: 100%;
+    height: 30%;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.categoryDetailsDisplay {
+    width: 95%;
+    height: 90%;
+    margin: 0 auto;
+}
+.categoryDescription {
+    width: 97%;
+    height: 50%;
+    border-radius: 10px;
+    border: 5px solid #fcb040;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+.categoryDescription > div {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.description {
+    width: 100%;
+    height: 15%;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.officeInformationContainer {
+    width: 95%;
+    height: 68%;
+    margin: 0 auto;
+    border: 1px solid #16bad6;
+    border-radius: 10px;
+    background-color: #16bad6;
+}
+.officeInfoScroll {
+    width: 98%;
+    height: 97%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.officeInfoContent {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+}
+.officeInfoImage {
+    width: 100%;
+    height: 40%;
+}
+.officeInfoImage > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.officeInfoDetails {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.officeInfo {
+    width: 90%;
+    height: 160px;
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    color: #59C4BC;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #fcb040;
+}
+.officeInfo > div > img {
+    width: 80px;
+    height: 80px;
+}
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .sponsers {
+        margin: 1%;
+    }
+    .sponserCategoryImage {
+        width: 45%;
+        height: 63%;
+    }
+    .sponerImageContainer {
+        width: 97%;
+    }
+    .sponserContent {
+        width: 97%;
+    }
+    .sponserContentCategory {
+        width: 97%;
+    }
+    .sponserCategory {
+        font-size: 30px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .officeInformationContainer {
+        width: 97%;
+    }
+    .officeInfoImage {
+        width: 100%;
+        height: 58%;
+    }
+}
+/*IPAD Landscape mode ends*/
+
+/*Mobile*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .sponserCategory {
+        font-size: 14px;
+    }
+    .categoryTitle {
+        font-size: 12px;
+    }
+    .sponserMainImage > img {
+        border-radius: 5px;
+    }
+    .categoryContent {
+        border-radius: 5px;
+    }
+    .attachmentDetails {
+        font-size: 16px;
+    }
+    .categoryDescription {
+        border-radius: 5px;
+        border: 4px solid #fcb040;
+        font-size: 12.5px;
+    }
+    .description {
+        font-size: 11px;
+    }
+    .categoryDetailsDisplayContainer {
+        width: 49%;
+    }
+    .categoryAttachment {
+        border-radius: 5px;
+        border: 4px solid #fcb040;
+    }
+    .officeInfo {
+        font-size: 11px;
+        height: 95px;
+    }
+    .officeInfo > div > img {
+        width: 50px;
+        height: 50px;
+    }
+    .officeInformationContainer {
+        border-radius: 5px;
+    }
+    .officeInfoImage > img {
+        border-radius: 5px;
+    }
+
+}
+/*IPHONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .sponerImageContainer {
+        width: 98%;
+    }
+    .sponserContent {
+        width: 98%;
+    }
+    .sponserCategory {
+        font-size: 11px;
+    }
+    .categoryTitle {
+        font-size: 12px;
+    }
+    .attachmentDetails {
+        font-size: 13px;
+    }
+    .categoryDescription {
+        font-size: 12px;
+        border: 3px solid #fcb040;
+    }
+    .description {
+        font-size: 10px;
+    }
+    .categoryAttachment {
+        border: 3px solid #fcb040;
+    }
+    .officeInformationContainer {
+        width: 98%;
+        border-radius: 5px;
+    }
+    .officeInfo {
+        font-size: 12px;
+        height: 90px;
+    }
+    .officeInfo > div > img {
+        width: 45px;
+        height: 45px;
+    }
+    .officeInfoImage {
+        width: 100%;
+        height: 50%;
+    }
+    .sponserMainImage > img {
+        border-radius: 5px;
+    }
+    .officeInfoImage > img {
+        border-radius: 5px;
+    }
+
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .sponserMainImage > img {
+        border-radius: 5px;
+    }
+    .sponserTypes {
+        border-radius: 5px;
+    }
+    .sponserCategory {
+        font-size: 14px;
+    }
+    .sponserCategoryImage {
+        height: 60%;
+    }
+    .categoryContent {
+        border-radius: 5px;
+    }
+    .categoryTitle {
+        font-size: 14px;
+    }
+    .sponserCategory {
+        height: 35%;
+    }
+    .attachmentDetails {
+        font-size: 17px;
+    }
+    .categoryDescription {
+        font-size: 14.3px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .categoryAttachment,.categoryDescription  {
+        border-radius: 6px;
+        border: 3px solid #fcb040;
+    }
+    .officeInformationContainer {
+        border-radius: 5px;
+    }
+    .officeInfo {
+        font-size: 12px;
+        height: 105px;
+    }
+    .officeInfo > div > img {
+        width: 60px;
+        height: 60px;
+    }
+    .officeInfoImage {
+        height: 60%;
+    }
+    .sponserContentCategory {
+        width: 98%;
+    }
+
+
+}
+/*Other Mobile devices Portrait mode ends*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+    .sponserCategory {
+        width: 100%;
+        height: 30%;
+    }
+    .sponserCategoryImage {
+        width: 50%;
+    }
+    .sponserCategory {
+        font-size: 12px;
+    }
+    .categoryDescription {
+        font-size: 13.6px;
+        border: 3px solid #fcb040;
+        border-radius: 5px;
+    }
+    .categoryAttachment {
+        border-radius: 5px;
+        border: 3px solid #fcb040;
+    }
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1100px)  {
+
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-height: 1080px){
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}
+
+/*Desktop ends*/
+
+

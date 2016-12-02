@@ -1,0 +1,557 @@
+/*
+    Created on : Oct 27, 2016, 3:33:05 PM
+    Author     : Dharani
+    Description: Contains responsive css for Bulletin Board (Message Center)
+*/
+
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 360px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+html ,body {
+    background-color: #16bad6;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+} 
+.bbHeader {
+    width: 100%;
+    height: 12%;
+    margin: auto;
+    background-color: #fcb040;
+}
+.bbContentMain {
+    width: 100%;
+    height: 75%;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.messageIcon {
+    width: 16%;
+    height: 100%;
+}
+.messageText {
+    height: 100%;
+    color: #FFFFFF;
+    font-family: 'Myriad-Bold';
+    font-size: 32px;
+}
+.bbContentScroll {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+}
+.bbContent {
+    width: 96%;
+    height: 100%;
+    margin: auto;
+}
+.bbMessage {
+    border-bottom: 1px solid #fcb040;
+    width: 100%;
+    height: 14%;
+    font-family: 'Myriad-Regular';
+    color: #59C4BC;
+    font-size: 25px;
+}
+.bbMessageText {
+    width: 90%;
+    height: 100%;
+}
+.bbMessageAlertIcon {
+    width: 8%;
+    height: 69%; /*69*/
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 45px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 9px 0px #be253e;
+    //padding-top: 10px;
+}
+.bbSwitch {
+    width: 100%;
+    height: 13%;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.bbSwitch > div {
+    height: 80%;
+    width: 33%;
+    background-color: #fcb040;
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*Bulletin board popup starts*/
+.popupMessage {
+    width: 100%;
+    height: 40%;
+    font-size: 28px;
+    color: #16bad6;
+    overflow: scroll;
+    margin-top: 1%;
+}
+.popupActionMain {
+    width: 100%;
+    height: 30%;
+}
+.bbSignature {
+    width: 100%;
+    height: 28%;
+    font-size: 20px;
+    color: #fcb040;
+    line-height: 21px;
+}
+
+.displayBbDate {
+    height: 100%;
+    width: 43%;
+    font-size: 20px;
+    color: #b9b9b9;
+}
+.bbActions {
+    width: 57%;
+    height: 100%;
+}
+.bbActions > div {
+    width: 48%;
+    height: 70%;
+    background-color: #FCB040;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 27px;
+}
+/*Bulletin board popup ends*/
+
+/*Ipad Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+    .bbHeader {
+        height: 10%;
+    }
+    .bbContentMain {
+        height: 80%;
+    }
+    .bbSwitch {
+        height: 10%;
+    }
+    .bbMessage {
+        height: 12%; 
+    }
+    .bbMessageAlertIcon {
+        width: 8%;
+        height: 59.5%;
+        padding-top: 10px;
+    }
+    .bbSignature{
+        line-height: 20px;
+        height: 14%;
+    }
+    .popupActionMain {
+        height: 12%;
+    }
+    .bbActions > div {
+        height: 90%;
+    }
+}
+/*Ipad Portrait mode ends*/
+/*Ipad Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .bbHeader {
+        height: 12%;
+    }
+    .bbContentMain {
+        height: 75%;
+    }
+    .bbMessage {
+        height: 16%;
+        font-size: 23px;
+    }
+    .bbSwitch {
+        height: 13%;
+    }
+    .bbMessageAlertIcon {
+        width: 6%;
+        height: 67%;
+        padding-top: 10px;
+    }
+    .messageIcon {
+        width: 11%;
+    }
+    .bbSwitch > div {
+        font-size: 27px;
+        height: 80%;
+        width: 28%;
+    }
+    .bbSignature{
+        line-height: 20px;
+        height: 20%;
+    }
+    .popupMessage {
+        height: 64%;
+    }
+    .bbActions > div {
+        width: 42%;
+        height: 85%;
+    }
+
+}
+/*Ipad Landscape mode ends*/
+/*Ipad Ends*/
+
+/*Mobile starts*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .messageIcon >img {
+        width: 40px;
+        height: 30px;
+    }
+    .messageText {
+        font-size: 20px;
+    }
+    .bbMessage {
+        height: 24%;
+        font-size: 17px;
+    }
+    .bbSwitch > div {
+        font-size: 18px;
+        width: 38%;
+    }
+    .bbMessageAlertIcon {
+        font-size: 30px;
+        width: 15%;
+        height: 57%;
+    }
+    .bbSignature {
+        height: 11%;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .popupActionMain {
+        flex-direction: column;
+        -webkit-flex-direction: column; 
+        -moz-flex-direction: column;
+        height: 24%;
+    }
+    .popupActionMain:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: center; 
+        -webkit-align-items: center;
+        display: -moz-flex; /* Mozilla */
+        -moz-justify-content: center; 
+        -moz-align-items: center;
+    }
+    .displayBbDate {
+        width: 100%;
+        font-size: 14px;
+        height: 50%;
+    }
+    .bbActions {
+        width: 100%;
+        height: 50%;
+    }
+    .bbActions > div {
+        height: 100%;
+        font-size: 17px;
+    }
+
+}
+/*IPHONE Portrait mode ends*/
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .headerTitle {
+        font-size: 24px;
+    }
+    .messageIcon >img {
+        width: 32px;
+        height: 22px;
+    }
+    .messageIcon {
+        width: 10%;
+    }
+    .messageText {
+        font-size: 20px;
+    }
+    .bbMessage {
+        height: 24%;
+        font-size: 17px;
+    }
+    .container-body {
+        height: 96%;
+    }
+    .bbContentMain {
+        height: 70%;
+    }
+    .bbSwitch {
+        height: 17%;
+    }
+    .bbSwitch > div {
+        font-size: 18px;
+        width: 33%;
+        border-radius: 5px;
+    }
+    .bbMessageText {
+        width: 92%;
+    }
+    .bbMessageAlertIcon {
+        width: 7%;
+        font-size: 30px;
+    }
+    .bbSignature {
+        height: 21%;
+        line-height: 17px;
+    }
+    .popupActionMain {
+        flex-direction: column;
+        -webkit-flex-direction: column; 
+        -moz-flex-direction: column;
+        height: 24%;
+    }
+    .popupActionMain:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: center; 
+        -webkit-align-items: center;
+        display: -moz-flex; /* Mozilla */
+        -moz-justify-content: center; 
+        -moz-align-items: center;
+    }
+    .displayBbDate {
+        font-size: 13px;
+        width: 70%;
+        height: 40%;
+    }
+    .bbSignature >div {
+        font-size: 14px;
+    }
+    .bbActions {
+        height: 60%;
+        width: 100%;
+    }
+    .bbActions > div {
+        height: 100%;
+        font-size: 20px;
+        width: 25%;
+        border-radius: 5px;
+    }
+    .bbActions:nth-child(2) {
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+    }
+}
+/*IPHONE Landscape mode ends*/
+/*Other Mobile devides Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .messageIcon >img {
+        width: 40px;
+        height: 30px;
+    }
+    .messageText {
+        font-size: 20px;
+    }
+    .bbMessage {
+        height: 19%;
+        font-size: 17px;
+    }
+    .bbSwitch > div {
+        font-size: 18px;
+        width: 48%;
+    }
+    .bbMessageAlertIcon {
+        font-size: 30px;
+        width: 11.5%;
+        height: 56%;
+    }
+    .popupActionMain {
+        flex-direction: column;
+        -webkit-flex-direction: column; 
+        -moz-flex-direction: column;
+        height: 24%;
+    }
+    .popupActionMain:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: center; 
+        -webkit-align-items: center;
+        display: -moz-flex; /* Mozilla */
+        -moz-justify-content: center; 
+        -moz-align-items: center;
+    }
+    .displayBbDate {
+        width: 100%;
+        font-size: 14px;
+        height: 50%;
+    }
+    .bbActions {
+        width: 100%;
+        height: 50%;
+    }
+    .bbActions > div {
+        height: 100%;
+        font-size: 17px;
+    }
+    .popupMessage {
+        height: 59%;
+        font-size: 18px;
+        margin-top: 3%;
+    }
+    .bbSignature {
+        height: 15%;
+        font-size: 16px;
+        line-height: 17px;
+        justify-content: center;
+        -webkit-justify-content: center; 
+        -moz-justify-content: center; 
+    }
+    .popupActionMain {
+        flex-direction: column;
+        -webkit-flex-direction: column; 
+        -moz-flex-direction: column;
+        height: 26%;
+    }
+    .displayBbDate {
+        height: 50%;
+        width: 100%;
+        font-size: 16px;
+    }
+    .bbActions {
+        width: 100%;
+        height: 50%;
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+    }
+    .bbActions > div {
+        width: 44%;
+        height: 84%;
+        font-size: 21px;
+    }
+}   
+/*Other Mobile devides Portrait modee ends*/
+/*Other Mobile devides Landscape mode starts*/
+@media screen and (min-width:600px) and (max-width:750px) {
+    .bbMessageAlertIcon {
+        height: 75%;
+        width: 7%;
+        font-size: 30px;
+    }
+
+}
+/*Other Mobile devides Landscape mode ends*/
+/*Mobile Ends*/
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+    .bbHeader {
+        height: 17%;
+    }
+    .bbContentMain {
+        height: 65%;
+    }
+    .bbMessage {
+        height: 24.5%;
+    }
+    .bbMessageAlertIcon{
+        width: 5%;
+        height: 89%;
+    }
+    .bbSignature {
+        height: 24%;
+    }
+}
+/*Desktop ends*/
+/*Larger screens */
+@media only screen and (min-width: 1280px) {
+    .messageIcon {
+        width: 8%;
+    }
+    .bbSwitch > div {
+        font-size: 29px;
+        height: 72%;
+        width: 23%;
+    }
+    .bbMessage {
+        font-size: 27px;
+    }
+    .bbMessageAlertIcon{
+        width: 5%;
+        height: 70%;
+    }
+}
+@media only screen and (min-width: 1500px)  {
+    .bbMessageAlertIcon{
+        width: 4%;
+        height: 70%;
+    }
+}
+/*Larger screens ends */
+
+/*Mobile portrait*/
+/*@media screen and (max-width:600px) and (min-width:320px) {
+        footer > div > img{
+            width: 100px;
+            height: 100px;
+        }
+    .messageIcon {
+        width: 20%;
+    }
+    .messageIcon >img {
+        width: 45px;
+        height: 35px;
+    }
+    .messageText {
+        width: 80%;
+        font-size: 24px;
+    }
+    .bbSwitch {
+        height: 15%;
+    }
+    .bbSwitch > div {
+        width: 41%;
+        font-size: 21px;
+        height: 95%;
+    }
+    .bbMessageText {
+        width: 85%;
+    }
+    .bbMessageAlertIcon {
+        width: 13%;
+        height: 62.5%;
+        font-size: 35px;
+        padding-top: 1.5%;
+    }
+    .bbMessage {
+        font-size: 18px;
+        height: 19%;
+    }
+    .bbContentMain {
+        height: 70%;
+    }
+}
+Mobile landscape
+Landscape*/
+
+
+
+
+

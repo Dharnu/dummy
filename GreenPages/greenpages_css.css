@@ -1,0 +1,467 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2016, 12:03:13 PM
+    Author     : dharani
+*/
+
+
+
+/*Green page Grid box*/
+.greenPageGridBoxMain {
+    width: 95%;
+    flex-wrap: wrap;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+}
+.greenPageGridBox {
+    width: 31%;
+    height: 170px;
+    font-size: 29px;
+    font-family: 'Myriad-Bold';
+    float: left;
+    text-align: center;
+    margin: 1%;
+}
+.greenpageImage {
+    width: 100%;
+    height: 100%;
+}
+.greenpageImage > img {
+    width: 65px;
+    height: 65px;
+}
+.greenPageCategory {
+    width: 100%;
+    height: 100%;
+    line-height: 27px;
+    font-size: 25px;
+}
+.greenPageGridBoxMain >div:nth-child(odd) {
+    background-color: #16bad6;
+}
+.greenPageGridBoxMain >div:nth-child(even) {
+    background-color: #59c4bc;
+}
+
+.gridBox {
+    width: 31%;
+    height: 132px;
+    font-size: 25px;
+    font-family: 'Myriad-Bold';
+    float: left;
+    text-align: center;
+    margin: 1%;
+}
+
+.greenPageSubCategory {
+    width: 100%;
+}
+
+.gridBoxSubMain {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    overflow: scroll;
+}
+.hrBar {
+    width: 97%;
+    height: 16px;
+    float: left;
+    margin: 1%;
+    background-color: transparent;
+    text-align: center;
+}
+.greenPageSubCategory >div:nth-child(odd) {
+    background-color: #16bad6;
+}
+.greenPageSubCategory >div:nth-child(even) {
+    background-color: #59c4bc;
+}
+.greenPageWithoutSubCategory {
+    width: 100%;
+}
+.vendorListWithoutSubCategory >div:nth-child(odd) {
+    background-color: #16bad6;
+}
+.vendorListWithoutSubCategory >div:nth-child(even) {
+    background-color: #59c4bc;
+}
+/*Green pages grid ends*/
+
+.vendorDetailsContainer {
+    width: 97%;
+    height: 97%;
+    margin: 0 auto;
+}
+.vendorImage {
+    width: 100%;
+    height: 45%;
+}
+.vendorImage > img {
+    width: 100%;
+    height: 97%;
+}
+.vendorDetails {
+    width: 100%;
+    height: 55%;
+    font-family: 'Myriad-Bold';
+    font-size: 22px;
+    background-color: #16bad6;
+}
+.vendorDetails > div {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.vendorAddressMain {
+    width: 100%;
+    height: 45%;
+}
+.vendorAddressMain > div {
+    height: 100%;
+}
+.vendorOtherDetails {
+    width: 100%;
+    height: 55%;
+}
+.vendorOtherDetails > div {
+    width: 90%;
+    height: 100%;
+}
+.vendorOthers {
+    width: 50%;
+    height: 100%;
+}
+.vendorOption {
+    width: 50%;
+    height: 100%;
+}
+/*.vendorOption > div {
+    width: 100%;
+    height: 20%;
+}*/
+.vendorMenu, .vendorVideo, .vendorCoupon, .vendorMail {
+    width: 100%;
+    height: 20%;
+}
+.vendorOptionDiv {
+    width: 130px; /*45%;*/
+    height: 45px;  /*100%;*/
+    background-color: #fcb040;
+    border-radius: 7px;
+}
+
+.addresslabel {
+    width: 15%;
+}
+.addressAndCall > div {
+    height: 50%;
+}
+.callButton {
+    width: 90%;
+    height: 65%;
+    background-color: #008000;
+    border-radius: 35px;
+}
+
+
+/*Coupon Details*/
+.couponDetails {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.couponContent {
+    width: 100%;
+    height: 100%;
+}
+.CouponImage {
+    width: 100%;
+    height: 90%;
+}
+.CouponImage > img {
+    width: 100%;
+    height: 98%;
+}
+.couponActions {
+    width: 100%;
+    height: 10%;
+    background-color: #16bad6;
+}
+.couponActions > div {
+    width: 25%;
+    height: 70%;
+    background-color: #fcb040;
+    border-radius: 10px;
+    font-family: 'Myriad-Bold';
+    font-size: 23px;
+
+}
+
+/*Menu Details*/
+.menuDetails {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.menuContent {
+    width: 100%;
+    height: 100%;
+}
+.menuImage {
+    width: 100%;
+    height: 100%;
+}
+.menuImage > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .vendorDetails {
+        font-size: 19px;
+    }
+
+    .greenPageGridBox {
+        width: 23%;
+        font-size: 25px;
+    }
+    .gridBox {
+        width: 23%;
+    }
+    .vendorOptionDiv {
+        width: 120px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .vendorOthers {
+        width: 65%;
+    }
+    .vendorOption {
+        width: 35%;
+    }
+}
+/*IPAD Landscape mode ends*/
+
+/*Mobile*/
+/*IPHONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .greenPageGridBox {
+        width: 30%;
+        height: 96px;
+        font-size: 14px;
+    }
+    .greenPageCategory {
+        line-height: 14px;
+        font-size: 14px;
+    }
+    .greenpageImage > img {
+        width: 40px;
+        height: 40px;
+    }
+    .gridBox {
+        width: 31%;
+        height: 90px;
+        font-size: 14px;
+    }
+    .vendorImage {
+        height: 35%;
+    }
+    .vendorDetails {
+        height: 65%;
+        font-size: 15px;
+    }
+    .vendorOtherDetails > div {
+        width: 100%;
+    }
+    .addresslabel {
+        width: 25%;
+    }
+    .vendorOthers {
+        width: 47%;
+    }
+    .vendorOption {
+        width: 60%;
+    }
+    .vendorOptionDiv {
+        width: 70px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+}
+/*IPHONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .greenPageGridBox {
+        width: 31%;
+        height: 96px;
+        font-size: 15px;
+    }
+    .greenPageCategory {
+        line-height: 14px;
+        font-size: 16px;
+    }
+    .greenpageImage > img {
+        width: 40px;
+        height: 40px;
+    }
+    .gridBox {
+        width: 30%;
+        height: 77px; /*90px*/
+        font-size: 15px;
+    }
+    .vendorImage {
+        height: 45%;
+    }
+    .vendorDetails {
+        height: 55%;
+        font-size: 14px;
+    }
+    .vendorOtherDetails > div {
+        width: 100%;
+    }
+    .addresslabel {
+        width: 25%;
+    }
+    .vendorOthers {
+        width: 100%;
+    }
+    .vendorOption {
+        width: 100%;
+    }
+    .vendorOptionDiv {
+        width: 70px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .addressAndCall > div {
+        height: 100%;
+        width: 50%;
+    }
+    .addressAndCall {
+        width: 70%;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+    }
+    .callButton {
+        width: 67%;
+        height: 55%;
+    }
+
+    .vendorMenu, .vendorCoupon, .vendorVideo {
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+    }
+    .vendorMail {
+        width: 40%;
+        height: 100%;
+    }
+    .vendorAddressMain {
+        border-bottom: 1px solid #ffffff;
+    }
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .greenPageGridBox {
+        width: 30%;
+        height: 96px;
+        font-size: 14px;
+    }
+    .greenPageCategory {
+        line-height: 14px;
+        font-size: 15px;
+    }
+    .greenpageImage > img {
+        width: 40px;
+        height: 40px;
+    }
+    .gridBox {
+        width: 31%;
+        height: 98px;
+        font-size: 13px;
+    }
+    .vendorImage {
+        height: 35%;
+    }
+    .vendorDetails {
+        height: 65%;
+        font-size: 14px;
+    }
+    .vendorOtherDetails > div {
+        width: 100%;
+    }
+    .addresslabel {
+        width: 25%;
+    }
+    .vendorOthers {
+        width: 60%;
+    }
+    .vendorOption {
+        width: 60%;
+    }
+    .vendorOptionDiv {
+        width: 70px;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+}   
+/*Other Mobile devices Portrait mode ends*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+    .gridBox {
+        width: 23%;
+        height: 79px;
+        font-size: 15px;
+    }
+    .vendorDetails {
+        font-size: 15px;
+    }
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1100px)  {
+
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-height: 1080px){
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}
+
+/*Desktop ends*/
+
+

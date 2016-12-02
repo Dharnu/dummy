@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2016, 10:12:30 AM
+    Author     : Abirami
+*/
+html, body {
+    background-color: #59c4bc;
+    height: 100%;
+    color: #ffffff; 
+    margin: 0 auto;
+}
+.videoGalleryParent{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+.VideoScroll{
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.VideoListContent{
+    width: 96%;
+    height: 100%;
+    margin: auto;
+}
+.maincategory{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height:100%;
+}
+.VideoCategoryDetails{
+    width: 100%;
+    height: auto;
+}
+.headingdiv{
+    width: 100%;
+    min-height: 77px;
+    background-color: #16bad6;
+    margin: auto;
+    border-radius: 8px;
+}
+.headingStyle{
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    color: #ffffff;
+    word-break: break-word;
+}
+.videoName{
+    width: 100%;
+    min-height: 85px;
+    overflow: auto;
+    word-break: break-word;
+}
+.videoNameStyle {
+    font-family: 'Myriad-Regular';
+    font-size: 27px;
+    width: 95%;
+    height: 84px;
+    margin: 0 auto;
+    color: #fcb040;
+    border-bottom: 1px solid #16bad6;
+}
+.videoName:last-child > div{
+    border-bottom: 0px;
+}
+
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .headingdiv {
+        min-height: 65px;
+    }
+}
+/*IPAD Landscape mode ends*/
+/*Mobile*/
+/*IPONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .headingStyle {
+        font-size: 18px;
+    }
+    .headingdiv {
+        min-height: 45px;
+        border-radius: 3px;
+    }
+    .videoNameStyle {
+        font-size: 16px;
+        height: 48px;
+    }
+    .videoName {
+        min-height: 50px;
+    }
+}
+/*IPONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .headingStyle {
+        font-size: 20px;
+    }
+    .headingdiv {
+        min-height: 40px;
+        border-radius: 5px;
+    }
+    .videoNameStyle {
+        height: 55px;
+        font-size: 15px;
+    }
+    .videoName {
+        min-height: 50px;
+    }
+}
+
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .headingStyle {
+        font-size: 20px;
+    }
+    .headingdiv {
+        min-height: 47px;
+        border-radius: 3px;
+    }
+    .videoNameStyle {
+        font-size: 18px;
+        height: 48px;
+    }
+    .videoName {
+        min-height: 50px;
+    }
+}
+
+/*Other Mobile devices Portrait mode starts*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+
+
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+}
+/*Desktop ends*/
+

@@ -1,0 +1,613 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2016, 10:12:20 AM
+    Author     : Abirami
+*/
+html, body {
+    background-color: #59c4bc;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.personalMain{
+    width:100%;
+    height:100%;
+}
+/*search box of staff directory starts*/
+
+.searchBarContainer{
+    width:100%;
+    height:10%;
+    background-color: #16bad6;
+}
+
+.searchContent{
+    width:95%;
+    height:95%;
+    margin:0 auto;
+}
+.searchByStaffBlock{
+    width:100%;
+    height:100%;
+}
+.searchByStaffContent{
+    width:98%;
+    height:98%;
+    margin:0 auto;
+}
+.searchLable{
+    width:40%;
+    height:100%;
+}
+.searchLabelName{
+    width:95%;
+    height:95%;
+    color:#ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 29px;
+    margin:auto;
+}
+.searchEngine{
+    width:60%;
+    height:100%;
+}
+.searchEngine  > input {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 25px;
+}
+
+/*search box of staff directory starts*/
+/*search content of staff directory starts*/
+
+.searchResultContainer{
+    width:100%;
+    height:90%;
+}
+.searchScroll{
+    width: 96%;
+    height: 94%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.searchListContent{
+    width: 96%;
+    height: 100%;
+    margin: auto;
+}
+.parentSearchContent{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height:100%;
+}
+.staffDepartment {
+    width: 100%;
+    height: auto;
+}
+.headingdiv{
+    width: 100%;
+    min-height: 75px;
+    background-color: #fcb040;
+    margin: auto;
+    border-radius: 8px;
+}
+.headingStyle{
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    color: #ffffff;
+    word-break: break-word;
+}
+.staffDetailStyle{
+    font-family: 'Myriad-Regular';
+    font-size: 25px;
+    width: 95%;
+    height:84px;
+    margin: 0 auto;
+    color: #59c4bc;
+    border-bottom: 1px solid #fcb040;
+
+}
+.staffDetails{
+    width: 100%;
+    min-height: 85px;
+    overflow: auto;
+    word-break: break-word;
+}
+/*search content of staff directory ends here*/
+/*navigating page style starts here*/
+.briefDetail{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #16bad6;
+
+}
+.SDcontentblocks{
+    width: 100%;
+    height: 97%;
+    margin: 0 auto;
+}
+.staffDetailContainer{
+    width: 95%;
+    height: 43%;
+}
+.contactInformationContainer{
+    width: 95%;
+    height: 48%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.StaffDetailBody{
+    width: 98%;
+    height: 97%;
+    margin: auto;
+}
+.staffImage{
+    width: 40%;
+    height: 100%;
+}
+.staffImage > div {
+    height:100%;
+}
+.staffImage > div > img {
+    width: 88.5%;
+    height: 80%;
+}
+.staffDetail{
+    width: 57%;
+    height: 75%;
+    word-wrap: break-word;
+}
+.StaffDetailInBrief{
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    font-family: 'Myriad-Regular';
+    color: #ffffff;
+    font-size: 31px;
+}
+.staffBioContainer{
+    width: 95%;
+    height: 7%;
+}
+.buttonBlock{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.staffBioContainer > div > div {
+    background-color: #fcb040;
+    color: #ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 28px;
+    border-radius: 10px;
+}
+.BioAction {
+    width: 35%;
+    height: 100%;
+}
+.contactinfo{
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+.contactinfoheading{
+    width: 100%;
+    height: 15%;
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    color: #fcb040;
+}
+.contactDetailContents{
+    width: 100%;
+    height: 85%;
+    margin: auto;
+}
+.contactInfoSroll{
+    width: 99%;
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+.staffDetailContents{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.userEmail,.userPhoneNumber{
+    width: 100%;
+    min-height: 20%;
+    overflow: auto;
+    font-family: 'Myriad-Bold';
+    font-size: 28px;
+    color: #59C4BC;
+    word-wrap: break-word;
+
+}
+.nameLable {
+    width: 22%;
+    height: 100%;
+}
+.userpersonalDetails {
+    width: 63%;
+    height: 100%;
+}
+.usericon {
+    width: 15%;
+}
+.usericon > img {
+    width: 94px;
+    height: 94px;
+}
+.staffDetailStyle > div:last-child{
+    border-bottom: 0px;
+}
+/*navigating page style starts here*/
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .searchScroll {
+        height: 90%;
+    }
+    .staffImage > div > img {
+        width: 54%;
+        height: 85%;
+    }
+    .searchResultContainer {
+        width: 100%;
+        height: 85%;
+    }
+    .searchBarContainer {
+        height: 15%;
+    }
+    .searchEngine > input {
+        width: 70%;
+    }
+    .usericon > img {
+        width: 75px;
+        height: 75px;
+    }
+    .staffDetailStyle {
+        height: 85px;
+    }
+    .staffDetailContainer {
+        height: 43%;
+    }
+    .contactInformationContainer {
+        height: 42%;
+    }
+    .staffBioContainer {
+        height: 9%;
+    }
+    .BioAction {
+        width: 20%;
+    }
+}
+/*IPAD Landscape mode ends*/
+/*Mobile*/
+/*IPONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .searchLabelName {
+        font-size: 14.5px;
+    }
+    .searchEngine > div > input {
+        height: 40px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .headingStyle {
+        font-size: 20px;
+    }
+    .headingdiv {
+        min-height: 40px;
+        border-radius: 5px;
+    }
+    .staffDetailStyle {
+        font-size: 18px;
+        height: 74px;
+    }
+    .staffDetails {
+        min-height: 75px;
+    }
+
+    .StaffDetailInBrief {
+        font-size: 14px;
+    }
+    .contactinfoheading > div {
+        font-size: 19px;
+    }
+    .contactInformationContainer {
+        border-radius:5px;
+    }
+    .userEmail, .userPhoneNumber {
+        font-size: 12px;
+    }
+    .staffBioContainer > div > div {
+        font-size: 19px;
+        border-radius: 5px;
+    }
+    .userpersonalDetails {
+        width: 65%;
+    }
+    .usericon {
+        width: 17%;
+    }
+    .staffBioContainer {
+        height: 8%;
+    }
+    .contactInformationContainer {
+        height: 46%;
+    }
+    .staffDetailContainer {
+        height: 43%;
+    }
+    .contactinfoheading {
+        font-size: 18px;
+    }
+    .usericon > img {
+        width: 45px;
+        height: 45px;
+    }
+    .staffDetail {
+        width: 57%;
+        height: 79%;
+    }
+    .searchBarContainer {
+        height: 15%;
+    }
+    .searchEngine > input {
+        height: 40px;
+        font-size: 17px;
+    }
+    .searchResultContainer {
+        width: 100%;
+        height: 85%;
+    }
+    .headingdiv {
+        min-height: 32px;
+    }
+}
+/*IPONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .searchLabelName {
+        font-size: 23px;
+    }
+    .searchEngine > div > input {
+        height: 32px;
+        border-radius: 6px;
+        font-size: 17px;
+    }
+    .searchBarContainer {
+        height: 20%;
+    }
+    .searchResultContainer {
+        height: 80%;
+    }
+    .headingStyle {
+        font-size: 20px;
+    }
+    .headingdiv {
+        min-height: 40px;
+        border-radius: 5px;
+    }
+    .staffDetailStyle {
+        font-size: 20px;
+        height: 73px;
+    }
+    .staffDetails {
+        min-height: 62px;
+    }
+    .StaffDetailInBrief {
+        font-size: 16px;
+    }
+    .staffImage > div > img {
+        width: 43.5%;
+        height: 80%;
+    }
+    .contactinfoheading {
+        font-size: 20px;
+        font-size: 19px;
+    }
+    .userEmail, .userPhoneNumber {
+        font-size: 18px;
+    }
+    .usericon > img {
+        width: 60px;
+        height: 60px;
+    }
+    .staffBioContainer {
+        height: 8%;
+    }
+    .contactInformationContainer {
+        height: 46%;
+        border-radius: 5px;
+    }
+    .staffDetailContainer {
+        height: 43%;
+    }
+    .staffBioContainer > div > div {
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .BioAction {
+        width: 20%;
+
+    }
+    .searchEngine > input {
+        height: 40px;
+        width: 81%;
+        border-radius: 5px;
+        font-size: 19px;
+    }
+    .staffImage > div > img {
+        width: 49.5%;
+        height: 89%;
+    }
+
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .searchLabelName {
+        font-size: 17px;
+    }
+    .searchEngine > div > input {
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    .headingStyle {
+        font-size: 20px;
+    }
+    .headingdiv {
+        min-height: 40px;
+        border-radius: 5px;
+    }
+    .staffDetailStyle {
+        font-size: 18px;
+    }
+    .staffDetails {
+        min-height: 72px;
+    }
+    .StaffDetailInBrief {
+        font-size: 15px;
+    }
+    .contactinfoheading  {
+        font-size: 19px;
+    }
+    .usericon > img {
+        width: 60px;
+        height: 60px;
+    }
+    .searchBarContainer {
+        height: 15%;
+    }
+    .searchEngine > input {
+        height: 40px;
+        border-radius: 10px;
+        font-size: 19px;
+    }
+    .staffDetail {
+        height: 72%;
+    }
+    .staffDetailStyle {
+        height: 70px;
+    }
+    .staffImage > div > img {
+        width: 99.5%;
+        height: 65%;
+    }
+    .userEmail, .userPhoneNumber {
+        font-size: 14px;
+    }
+    .staffDetailContainer {
+        height: 32%;
+    }
+    .staffBioContainer > div > div {
+        font-size: 22px;
+        border-radius: 5px;
+    }
+    .BioAction {
+        width: 40%;
+    }
+    .staffBioContainer {
+        height: 8%;
+    }
+    .contactInformationContainer {
+        height: 46%;
+    }
+    .staffDetailContainer {
+        height: 43%;
+    }
+
+}
+
+/*Other Mobile devices Portrait mode starts*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+    .searchLabelName {
+        font-size: 25px;
+    }
+    .searchEngine > div > input {
+        height: 35px;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+    .staffImage > div > img {
+        width: 35.5%;
+        height: 80%;
+    }
+    .headingStyle {
+        font-size: 24px;
+    }
+    .headingdiv {
+        min-height: 40px;
+    }
+    .staffDetailStyle {
+        font-size: 17px;
+    }
+    .staffDetails {
+        width: 100%;
+        min-height: 45px;
+    }
+    .staffBioContainer {
+        height: 9%;
+    }
+    .contactInformationContainer {
+        height: 43%;
+        border-radius: 5px;
+    }
+    .contactinfoheading {
+        height: 17%;
+    }
+    .contactInfoSroll {
+        width: 99%;
+        height: 90%;
+    }
+    .staffDetailContainer {
+        height: 43%;
+    }
+    .usericon > img {
+        width: 60px;
+        height: 60px;
+    }
+    .contactinfoheading > div {
+        font-size: 18px;
+    }
+}
+
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+
+}
+
+/*Desktop ends*/

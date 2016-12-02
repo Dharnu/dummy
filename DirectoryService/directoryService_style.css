@@ -1,0 +1,577 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2016, 12:41:58 PM
+    Author     : Abirami
+*/
+html, body {
+    background-color: #59c4bc;
+    height: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.containerContent{
+    width:100%;
+    height:97%;
+    margin: 0 auto;
+}
+.searchExtarSpace {
+    height:3%;
+    width:97%;
+    margin: auto;
+}
+.DirectoryServiceParent{
+    width:100%;
+    height:100%;
+}
+.searchBarContainer{
+    width:100%;
+    height:10%;
+}
+.searchBarContainer > input{
+
+    width: 70%;
+    height: 75%;
+    border-radius: 30px;
+    font-size: 27px;
+    font-family: 'Myriad-Bold';
+    color: #16BAD6;
+    position: relative;
+    bottom: 50%;
+}
+.ServiceDetailsbottom{
+    width:100%;
+    height:90%;
+}
+.ServiceDetailsContent{
+    width:98%;
+    height:97%;
+    margin:0 auto;
+    background-color: #24C5E1;
+}
+.categoryNamesList{
+    width:98%;
+    height:100%;
+    margin: 0 auto;
+}
+.CategoryDisplay{
+    width:100%;
+    min-height:14%;
+    background-color: #ffffff;
+    border-radius:10px;
+    padding-top: 4%;
+}
+.scroll{
+    width: 96%;
+    height: 94%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.mainCetagoryMenu{
+    width:100%;
+    height:11%;
+    background-color: #F4A639;
+    color:#ffffff;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.subMenus{
+    width:100%;
+    height:auto;
+    padding-bottom: 4%;
+}
+.subMenus > div:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.searchBarContainer > input{
+    box-shadow: 3px 10px 5px #888888;
+}
+
+.subMenusOfCategory{
+    width:100%;
+    height: 11%;
+    background-color: #59c4bc;
+    color:#ffffff;
+    margin:0 auto;
+    border-bottom: 2px solid #ffffff;
+
+}
+.categoryIcon{
+    width:10%;
+    height:100%;
+}
+.CategoryName{
+    width:80%;
+    height:100%;
+    color:#ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+}
+.circle{
+    width: 23%;
+    height: 21%;
+    background-color: #16BAD6;
+    border-radius: 45%;
+}
+.userDetails{
+    width:90%;
+    height:100%;
+}
+.userViewSymbol{
+    width:10%;
+    height:100%;
+}
+.userViewSymbol{
+    width:10%;
+    height:100%;
+}
+.ClientName ,.clientNumber,.clientEmail{
+    height:33%;
+    width:98%;
+    margin: 0 auto;
+    font-family: 'Myriad-Bold';
+    font-size: 25px;
+}
+.arrow{
+    top: 2pt;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    -webkit-transform: rotate(45deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(45deg);  /* IE 9 */
+    transform: rotate(45deg);  /* Firefox 16+, IE 10+, Opera */
+}
+
+//directory service navigation place starts//
+/*navigation page of particular resient starts*/
+
+.hello {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#16bad6;
+}
+.DS_Parent {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#16bad6;
+}
+.DsContentBlocks{
+    width: 100%;
+    height: 97%;
+    margin: 0 auto;
+}
+.ClientDetailContainer{
+    width:95%;
+    height:43%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.contactInformationContainer{
+    width:95%;
+    height:48%;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.residentBioContainer{
+    width:95%;
+    height:7%;
+
+}
+.residentBioContainer > div > div 
+{
+    background-color: #fcb040;
+    color:#ffffff;
+    font-family: 'Myriad-Bold';
+    font-size: 28px;
+    border-radius: 10px;
+}
+.buttonBlock{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.BioAction {
+    width:30%;
+    height:100%;
+
+}
+.addAction{
+    width:28%;
+    height:100%;
+
+}
+.ClientDetailBody{
+    width:98%;
+    height:97%;
+    margin:auto;
+}
+.userImage{
+    width:40%;
+    height:100%;
+}
+.userDetail{
+    width:57%;
+    height:90%;
+}
+.userImage > div{
+    width:95%;
+    height:95%;
+    margin:auto;
+}
+.userStaticLable{
+    width:100%;
+    height:20%;
+}
+.otherDetails{
+    width:100%;
+    height:80%;
+    word-break: break-word;
+}
+.cdScroll{
+    width: 96%;
+    height: 97%;
+    margin: auto;
+    overflow: scroll;
+}
+.userDetailContent,.userStaticLable{
+
+    margin:auto;
+    font-family: 'Myriad-Regular';
+    color: #59C4BC;
+    font-size: 29.5px;
+}
+.callDetailBody{
+    font-family: 'Myriad-Regular';
+    color: #59C4BC;
+    font-size: 33.5px;
+}
+.username{
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    width: 97%;
+    height: 100%;
+}
+.contactinfo{
+    width:95%;
+    height:95%;
+    margin:0 auto;
+}
+.contactInfoSroll{
+    width: 99%;
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+.contactinfoheading{
+    width:100%;
+    height:15%;
+}
+.contactinfoheading > div{
+    font-family: 'Myriad-Bold';
+    font-size: 30px;
+    color:#fcb040;
+}
+.callDetailBody{
+    width:100%;
+    height:85%;
+}
+.callDetailContents{
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+.userEmail ,.userPhoneNumber ,.userMobileNumber, .userInHouseNumber ,.userCatieCall{
+    width:100%;
+    min-height: 20%;
+    overflow: auto;
+    font-family: 'Myriad-Bold';
+    font-size: 28px;
+    color: #59C4BC;
+
+}
+.userImage > div > img{   
+    width: 88.5%;
+    height: 80%;
+}
+
+.nameLable {
+    width: 22%;
+    height: 100%;
+}
+
+.usericon {
+    width:15%;
+}
+.usericon > img{
+    width:100%;
+    height:85%;
+}
+
+.userpersonalDetails {
+    width:63%;
+    height:100%;
+
+}
+.userpersonalDetails > div{
+    word-break: break-word;
+}
+//navigation ends//
+/*IPAD Portrait mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : portrait){
+
+}
+/*IPAD Portrait mode ends*/
+/*IPAD Landscape mode starts*/
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation : landscape){
+    .searchBarContainer > input {
+        width: 50%;
+        height: 90%;
+        position: relative;
+        bottom: 50%;
+
+    }
+    .circle {
+        width: 15%;
+    }
+    .subMenusOfCategory {
+        width: 100%;
+        height: 15%;
+    }
+    .userImage > div > img {
+        width: 60.5%;
+        height: 92%;
+    }
+    .userDetail {
+        width: 60%;
+    }
+    .userDetailContent, .userStaticLable {
+        font-size: 24.5px;
+    }
+    .BioAction {
+        width: 20%;
+    }
+    .addAction {
+        width: 20%;
+    }
+    .residentBioContainer > div > div {
+        border-radius: 5px;
+    }
+}
+/*IPAD Landscape mode ends*/
+/*Mobile*/
+/*IPONE Portrait mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : portrait) {
+    .searchBarContainer > input {
+        width: 70%;
+        height: 80%;
+        font-size: 15px;
+        position: relative;
+        bottom: 50%;
+    }
+    .circle {
+        width: 35%;
+    }
+    .CategoryName {
+        font-size: 13px;
+    }
+    .ClientName, .clientNumber, .clientEmail {
+        font-size: 12px;
+    }
+    .subMenusOfCategory {
+        width: 100%;
+        height: 13%;
+    }
+    .userImage > div > img {
+        width: 91.5%;
+        height: 69%;
+    }
+    .username {
+        font-size: 19px;
+        float: left;
+    }
+    .userDetailContent, .userStaticLable {
+        font-size: 17.5px;
+    }
+    .contactinfoheading > div {
+        font-size: 25px;
+    }
+    .callDetailBody {
+        font-size: 16.5px;
+    }
+    .residentBioContainer > div > div {
+        font-size: 19px;
+        border-radius: 5px;
+    }
+    .mainCetagoryMenu {
+        border-radius: 5px;
+    }
+
+}
+/*IPONE Portrait mode ends*/
+
+/*IPHONE Landscape mode starts*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)  and (orientation : landscape) {
+    .searchBarContainer > input {
+        width: 58%;
+        height: 98%;
+        border-radius: 25px;
+        font-size: 16px;
+        position: relative;
+        bottom: 50%;
+    }
+    .CategoryName {
+        font-size: 18px;
+    }
+    .circle {
+        width: 16%;
+        height: 25%;
+    }
+    .mainCetagoryMenu {
+        border-radius: 5px;
+    }
+    .subMenusOfCategory {
+        width: 100%;
+        height: 15%;
+    }
+    .mainCetagoryMenu {
+        height: 15%;
+    }
+    .ClientName, .clientNumber, .clientEmail {
+        font-size: 12px;
+    }
+    .userImage > div > img {
+        width: 63.5%;
+        height: 93%;
+    }
+    .ClientDetailContainer {
+        border-radius: 5px;
+    }
+    .username {
+        font-family: 'Myriad-Bold';
+        font-size: 20px;
+        float: left;
+    }
+    .userDetail {
+        width: 60%;
+    }
+    .userDetailContent, .userStaticLable {
+        font-size: 14.5px;
+    }
+    .contactinfoheading > div {
+        font-size: 20px;
+    }
+    .contactinfoheading {
+        height: 19%;
+    }
+    .callDetailBody {
+        font-size: 15.7px;
+    }
+    .residentBioContainer > div > div {
+
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .BioAction {
+        width: 20%;
+    }
+    .addAction {
+        width: 20%;
+    }
+    .contactInfoSroll {
+        width: 99%;
+        height: 87%;
+    }
+}
+/*IPHONE Landscape mode ends*/
+
+/*Other Mobile devices Portrait mode starts*/
+@media screen and (min-width:350px) and (max-width: 450px) {
+    .searchBarContainer > input {
+        border-radius: 20px;
+        font-size: 17px;
+        position: relative;
+        bottom: 50%;
+    }
+    .CategoryName {
+        font-size: 15px;
+    }
+    .circle {
+        height: 15%;
+    }
+    .ClientName, .clientNumber, .clientEmail {
+        font-size: 13px;
+    }
+    .mainCetagoryMenu {
+        height: 12%;
+    }
+    .userImage > div > img {
+        width: 88.5%;
+        height: 66%;
+    }
+    .username {
+        font-size: 21px;
+        float: left;
+    }
+    .userDetailContent, .userStaticLable {
+        font-size: 14.5px;
+    }
+    .callDetailBody {
+        font-size: 15.1px;
+    }
+    .contactinfoheading > div {
+        font-size: 22px;
+    }
+    .residentBioContainer > div > div {
+        font-size: 22px;
+        border-radius: 5px;
+    }
+}
+/*Other Mobile devices Portrait mode starts*/
+
+/*Other Mobile devices Landscape mode starts*/ 
+@media screen and (min-width:600px) and (max-width:750px) {
+    .userDetailContent, .userStaticLable {
+        font-size: 15.5px;
+    }
+    .callDetailBody {
+        font-size: 18.7px;
+    }
+}
+/*Other Mobile devices Landscape mode ends*/ 
+
+/*desktop starts*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 768px){
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+}
+/*Desktop ends*/
+
+
+
+
+
+

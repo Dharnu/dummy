@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>CCRC - Calendar</title>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/common_style.css" />
+    </head>
+    <body>
+        <div class="cal-container">
+            <header class="centerAll">
+                PERSONAL CALENDAR
+            </header>
+            <section>
+                <div class="calender-body cal-shadow">
+                    <div class="cal-select-date displayFlex">
+                        <div class="cal-date-day centerAll">
+                            <div class="cal-date-day-display flexDirection">
+                                <span class="cal-date">18</span>
+                                <span class="cal-day">WED</span>
+                            </div>
+                        </div>
+                        <div class="cal-select-month flexStart">September 2013</div>
+                    </div>
+                    <div class="cal-event-list">
+                        <div class="event-list flexStart">
+                            <div class="event-time">All Day</div>
+                            <div class="divider"> - </div>
+                            <div class="event-name">Wednesday Bingo</div>
+                        </div>
+                        <div class="event-list flexStart">
+                            <div class="event-time">12:30 PM</div>
+                            <div class="divider"> - </div>
+                            <div class="event-name">Wednesday Bingo</div>
+                        </div>
+                        <div class="event-list flexStart">
+                            <div class="event-time">5:00 PM</div>
+                            <div class="divider"> - </div>
+                            <div class="event-name">Wednesday Bingo</div>
+                        </div>
+                    </div>
+                    <div class="cal-event-list-empty centerItems"  style="display: none;">
+                        <div class="empty-message">
+                            No event information is available for this day. Please check back later for more updated information. Thank you for interacting with CATIE!
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="spaceBetween">
+                <div class="home-icon"><img src="images/home.png" width="150" height="150" alt="home" /></div>
+                <div class="createEvent centerAll">Create Event</div>
+                <div class="home-icon"><img src="images/calendar.png" width="150" height="150" alt="calendar" /></div>
+            </footer>
+        </div>
+    </body>
+</html>
